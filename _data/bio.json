@@ -1,17 +1,16 @@
 
 {
   "basics": {
-    "name": "Kilian Pouderoux",
-    "label": "Student",
+    "name": "Allan Attia-Chemla",
+    "label": "MS Student in Aeronautics & Astronautics at Stanford University | NASA NSTGRO Fellow",
     "picture": "../img/foto.jpeg",
-    "email": "kilian.pouderoux@epfl.ch",
+    "email": "Allan.attiachemla@gmail.com",
     "phone": "",
     "website": "",
     "summary": "Final year Master’s student in Microengineering at EPFL and CentraleSupélec. With expertise in microsystems, nanotechnology, and computational science, I bring strong curiosity, organization, and autonomy to my work. I am eager to contribute to high-tech, fast-moving projects and am seeking a 6-month internship starting in February 2026.",
     "location": { "address": "", "postalCode": "", "city": "Lausanne", "countryCode": "CH", "region": "" },
     "profiles": [
-      { "network": "github", "username": "kilianpdrx", "url": "https://github.com/kilianpdrx" },
-      { "network": "linkedin", "username": "Kilian Pouderoux", "url": "https://www.linkedin.com/in/kilian-pouderoux-502184248/" }
+      { "network": "linkedin", "username": "Allan Attia-Chemla", "url": "https://www.linkedin.com/in/allan-attia-chemla-990359197/" }
     ]
   },
   "interests": [

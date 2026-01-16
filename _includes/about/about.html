@@ -34,9 +34,8 @@
           {% endfor %}
 
           <div class="col text-center">
-            {% include about/social.html 
-              url='/assets/Pouderoux_Kilian_EN.pdf' 
-              name='file-earmark-text' %}
+            {% capture resume_url %}{{ "/Resume_Allan_Attia-Chemla_2026.pdf" | relative_url }}{% endcapture %}
+            {% include about/social.html url=resume_url name='file-earmark-text' %}
           </div>
 
         </div>

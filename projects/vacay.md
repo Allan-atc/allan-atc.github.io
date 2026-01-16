@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/vacay/vacay-square.png
 title: "Vacay"
-date: 2015
+start_date: 2015
 published: true
 labels:
   - Javascript

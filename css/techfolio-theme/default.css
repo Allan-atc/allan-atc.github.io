@@ -15,6 +15,13 @@
   --tf-projects-bg-color: var(--bs-gray-100);
 }
 
+.tf-profile-photo {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
 /* Format social media icons */
 .tf-social {
   display: inline-block;

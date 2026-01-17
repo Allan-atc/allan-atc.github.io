@@ -30,7 +30,7 @@ period: CentraleSupélec CubeSat Program — CNES & Thales Alenia Space Sponsore
 
 <h4>Objective</h4>
 <p>
-ESUS is a CentraleSupélec 3U CubeSat scheduled for launch in 2027, developed end-to-end by a team of ~30 engineering students and 5 faculty advisors, with sponsorship and technical support from the French Space Agency and Thales Alenia Space. The mission carries two payloads:
+ESUS is a CentraleSupelec 3U CubeSat scheduled for launch in 2027, developed end-to-end by a team of ~30 engineering students and 5 faculty advisors, with sponsorship and technical support from the French Space Agency and Thales Alenia Space. The mission carries two payloads:
 </p>
 
 <ul>
@@ -53,7 +53,7 @@ Along with one other student, we formed the Structure & Thermal team. I was prim
 <h4>Success criteria</h4>
 <ul>
   <li>Same external geometry and interface features as the flight configuration.</li>
-  <li>Equivalent system-level mass and inertia behavior and consistent subsystem placement, sufficient to replicate launch and on-orbit mechanical loads: quasi-static, sinusoidal, and random vibration environments.</li>
+  <li>Equivalent system-level mass and inertia behavior and consistent subsystem placement, sufficient to replicate launch and on-orbit mechanical loads.</li>
 </ul>
 
 <hr>
@@ -101,7 +101,7 @@ I used mass dummies as an engineering solution. Even without final hardware, thi
 </ul>
 
 <p>
-To make the STM representative, dummy masses were sized using datasheet component masses. Their placement followed the real component layout on PCBs, and shapes were sometimes tuned (plates, blocks, butterfly geometries) to better reproduce inertia behavior rather than only matching total mass. This required that I manufactured aluminum or steel parts depending on the required density, using CentraleSupélec’s fabrication laboratory, including:
+To make the STM representative, dummy masses were sized using datasheet component masses. Their placement followed the real component layout on PCBs, and shapes were sometimes tuned (plates, blocks, butterfly geometries) to better reproduce inertia behavior rather than only matching total mass. This required that I manufactured aluminum or steel parts depending on the required density, using CentraleSupelec’s fabrication laboratory, including:
 </p>
 
 <ul>

@@ -1,20 +1,12 @@
 ---
 layout: project
 type: project
-image: img/NSTGRO/mpd.png
+image: img/NASA/MPD.png
 title: "NASA NSTGRO"
+permalink: /projects/nasa/
 start_date: 2024-09
 end_date: 2026-06
 published: true
-labels:
-  - C++
-  - Plasma
-  - MPD Thruster
-  - Two-Fluid Model
-  - Stability
-  - Ionization Kinetics
-  - MHD
-  - Numerical Modeling
 summary: "Physics-based modeling and stability prediction of a lithium MPD thruster to anticipate onset and extend lifetime for NEP-class missions."
 period: Stanford University / NASA NSTGRO
 ---

@@ -54,7 +54,10 @@ a {
   border-top: none;
 }
 
-body {
+p,
+li,
+.card-text,
+.lead {
   text-align: justify;
 }
 

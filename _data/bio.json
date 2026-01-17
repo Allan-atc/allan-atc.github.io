@@ -2,12 +2,13 @@
 {
   "basics": {
     "name": "Allan Attia-Chemla",
-    "label": "MS Student in Aeronautics & Astronautics at Stanford University | NASA NSTGRO Fellow",
+    "label": "M.S. Student in Aeronautics & Astronautics at Stanford University | NASA NSTGRO Fellow",
     "picture": "/img/IMG_3114.png",
     "email": "Allan.attiachemla@gmail.com",
     "phone": "",
     "website": "",
-    "summary": "Final-year M.S. student in Aeronautics and Astronautics at Stanford University (graduating June 2026), U.S. and French citizen, and NASA NSTGRO Fellow focused on high-power electric propulsion for Mars missions, with research at a NASA center in Summer 2026. Ranked 1st out of 1,000 in undergraduate studies at CentraleSupélec, a top engineering school in France. Hands-on experience in computational modeling, CAD design, and real hardware development on a 3U CubeSat, seeking a full-time position or internship starting Fall 2026 in propulsion engineering.",
+    "summary": "Final-year M.S. student in Aeronautics and Astronautics at Stanford University, graduating in June 2026. NASA NSTGRO Fellow working on high-power electric propulsion for Mars missions, with planned research at a NASA center in Summer 2026. Undergraduate studies at CentraleSupelec, a top engineering school in France, ranked 1st out of 1,000, with hands-on experience in computational modeling, CAD design, and 3U CubeSat hardware development. Seeking a full-time position or internship starting Fall 2026 in propulsion engineering.",
+    "citizenship": "U.S. citizen and French citizen",
     "location": { "address": "", "postalCode": "", "city": "Lausanne", "countryCode": "CH", "region": "" },
     "profiles": [
       { "network": "linkedin", "username": "Allan Attia-Chemla", "url": "https://www.linkedin.com/in/allan-attia-chemla-990359197/" }

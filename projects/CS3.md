@@ -16,7 +16,6 @@ period: CentraleSupelec Space Center for CubeSats
 <p>
 <strong>Program:</strong> CentraleSupélec 3U CubeSat (ESUS)<br>
 <strong>Sponsors / Technical support:</strong> French Space Agency (CNES), Thales Alenia Space<br>
-<strong>Team size:</strong> ~30 engineering students + 5 faculty advisors<br>
 <strong>Role:</strong> Structure & Thermal team (2 people) — I led structural work; teammate led thermal (tight coordination)
 </p>
 

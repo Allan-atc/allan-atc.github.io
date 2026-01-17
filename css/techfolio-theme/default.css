@@ -73,10 +73,3 @@ h1,
 .display-6 {
   text-align: center;
 }
-
-.tf-figure-caption {
-  display: block;
-  text-align: center;
-  font-size: 0.9rem;
-  color: gray;
-}

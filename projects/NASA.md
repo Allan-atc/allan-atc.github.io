@@ -85,7 +85,7 @@ This coupled system was validated by reproducing key trends reported in the expe
   </div>
 </div>
 <p align="center" style="margin-top: 0.25rem;">
-  <span class="tf-figure-caption">Figure 1 — Growth rate vs. wavenumber at J = 2.0 × 10^6 A/m<sup>2</sup></span>
+  <span style="font-size: 0.9rem; color: gray; display: block; text-align: center;">Figure 1 — Growth rate vs. wavenumber at J = 2.0 × 10^6 A/m<sup>2</sup></span>
 </p>
 
 <ul>
@@ -93,7 +93,7 @@ This coupled system was validated by reproducing key trends reported in the expe
 </ul>
 <p align="center">
   <img src="{{ '/img/NASA/Figure_4.3.png' | relative_url }}" alt="Figure 3 — Growth rate vs. wavenumber at J = 5.0 × 10^6 A/m^2" style="max-width: 500px; margin: 1rem auto; display:block;">
-  <span class="tf-figure-caption">Figure 2 — Growth rate vs. wavenumber at J = 5.0 × 10^6 A/m<sup>2</sup></span>
+  <span style="font-size: 0.9rem; color: gray; display: block; text-align: center;">Figure 2 — Growth rate vs. wavenumber at J = 5.0 × 10^6 A/m<sup>2</sup></span>
 </p>
 
 <ul>
@@ -101,7 +101,7 @@ This coupled system was validated by reproducing key trends reported in the expe
 </ul>
 <p align="center">
   <img src="{{ '/img/NASA/Figure_4.5.png' | relative_url }}" alt="Figure 4 — Growth rate vs. interelectrode separation / electrode length" style="max-width: 500px; margin: 1rem auto; display:block;">
-  <span class="tf-figure-caption">Figure 3 — Growth rate vs. interelectrode separation / electrode length</span>
+  <span style="font-size: 0.9rem; color: gray; display: block; text-align: center;">Figure 3 — Growth rate vs. interelectrode separation / electrode length</span>
 </p>
 
 <ul>
@@ -109,7 +109,7 @@ This coupled system was validated by reproducing key trends reported in the expe
 </ul>
 <p align="center">
   <img src="{{ '/img/NASA/Figure_4.11%20alpha%20crit.png' | relative_url }}" alt="Figure 5 — Growth rate vs. ionization fraction α" style="max-width: 500px; margin: 1rem auto; display:block;">
-  <span class="tf-figure-caption">Figure 4 — Growth rate vs. ionization fraction α</span>
+  <span style="font-size: 0.9rem; color: gray; display: block; text-align: center;">Figure 4 — Growth rate vs. ionization fraction α</span>
 </p>
 
 

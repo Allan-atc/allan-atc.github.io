@@ -2,13 +2,13 @@
 layout: project
 type: project
 image: img/NASA/MPD.png
-title: "NASA NSTGRO"
+title: "Computational Modeling of a Lithium Magnetoplasmadynamic (MPD) Thruster for Nuclear Electric Propulsion"
 permalink: /projects/nasa/
-start_date: 2024-09
-end_date: 2026-06
+start_date: August 2025
+end_date: Present
 published: true
-summary: "Physics-based modeling and stability prediction of a lithium MPD thruster to anticipate onset and extend lifetime for NEP-class missions."
-period: Stanford University / NASA NSTGRO
+summary: "This work aims to advance high-power propulsion for long-duration missions to Mars by optimizing thruster designs using a stability-oriented modeling framework."
+period: Stanford University / NASA
 ---
 
 <div class="container py-3">
@@ -32,7 +32,7 @@ A major barrier to operating MPDs at high current, which enables high specific i
 </p>
 
 <p>
-<strong>Objective:</strong> develop a predictive, physics-based simulation framework capable of predicting onset, to guide design and operating conditions that extend thruster lifetime for MPD thrusters relevant to Mars missions.
+<strong>Goal:</strong> develop a predictive, physics-based simulation framework capable of predicting onset, to guide design and operating conditions that extend thruster lifetime for MPD thrusters relevant to Mars missions.
 </p>
 
 <hr>
@@ -71,37 +71,49 @@ I then coupled the 1D solver to the 0D stability model: the solver provides axia
 
 <hr>
 
-<h4>Results</h4>
+<h4>My results</h4>
 <p>
 This coupled system was validated by reproducing key trends reported in the experimental literature:
 </p>
 
 <ul>
   <li><strong>Stability maps:</strong> growth rate vs. nondimensional wavenumber shows alternating stable and unstable bands.</li>
+</ul>
+<div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:flex-start;">
+  <div style="max-width: 420px; flex: 1 1 320px; text-align:center;">
+    <img src="{{ '/img/NASA/Figure%204.1.png' | relative_url }}" alt="Figure 4.1 — Growth rate vs. wavenumber at J = 2.0 × 10^6 A/m^2." style="width:100%; height:auto; margin: 1rem auto; display:block;">
+    <span style="font-size: 0.9rem; color: gray;">Figure 4.1 — Growth rate vs. wavenumber at J = 2.0 × 10^6 A/m<sup>2</sup>.</span>
+  </div>
+  <div style="max-width: 420px; flex: 1 1 320px; text-align:center;">
+    <img src="{{ '/img/NASA/Figure_4.2.png' | relative_url }}" alt="Figure 4.2 — Stability map / growth rate vs. wavenumber." style="width:100%; height:auto; margin: 1rem auto; display:block;">
+    <span style="font-size: 0.9rem; color: gray;">Figure 4.2 — Stability map / growth rate vs. wavenumber.</span>
+  </div>
+</div>
+
+<ul>
   <li><strong>Current density sensitivity:</strong> increasing discharge current density increases instability growth rate and narrows the stable operating window.</li>
+</ul>
+<p align="center">
+  <img src="{{ '/img/NASA/Figure_4.3.png' | relative_url }}" alt="Figure 4.3 — Growth rate vs. wavenumber at J = 5.0 × 10^6 A/m^2." style="max-width: 900px; margin: 1rem auto; display:block;">
+  <span style="font-size: 0.9rem; color: gray;">Figure 4.3 — Growth rate vs. wavenumber at J = 5.0 × 10^6 A/m<sup>2</sup>.</span>
+</p>
+
+<ul>
   <li><strong>Geometry correlation:</strong> for fixed mass flow rate, decreasing interelectrode length increases stability.</li>
+</ul>
+<p align="center">
+  <img src="{{ '/img/NASA/Figure_4.5.png' | relative_url }}" alt="Figure 4.5 — Growth rate vs. interelectrode separation / electrode length." style="max-width: 900px; margin: 1rem auto; display:block;">
+  <span style="font-size: 0.9rem; color: gray;">Figure 4.5 — Growth rate vs. interelectrode separation / electrode length.</span>
+</p>
+
+<ul>
   <li><strong>Ionization-fraction threshold:</strong> strong sensitivity to near-anode ionization fraction. Above a critical value (approximately α ≈ 0.875), small current increases can lead to rapid stability loss.</li>
 </ul>
-
-<!-- Replace image paths below with your actual figure exports -->
 <p align="center">
-  <img src="/Users/allanattiachemla/Library/Mobile Documents/com~apple~CloudDocs/Documents/Allan/SpaceX/portfolio/allan5.github.io/img/NASA/Figure 4.1.png" alt="Figure 4 — Growth rate vs. wavenumber at J = 2.0 × 10^6 A/m^2." style="max-width: 900px; margin: 1rem auto; display:block;">
-  <span style="font-size: 0.9rem; color: gray;">Figure 4 — Growth rate vs. wavenumber at J = 2.0 × 10^6 A/m<sup>2</sup>.</span>
+  <img src="{{ '/img/NASA/Figure_4.11%20alpha%20crit.png' | relative_url }}" alt="Figure 4.11 — Growth rate vs. ionization fraction α." style="max-width: 900px; margin: 1rem auto; display:block;">
+  <span style="font-size: 0.9rem; color: gray;">Figure 4.11 — Growth rate vs. ionization fraction α.</span>
 </p>
 
-<p align="center">
-  <img src="../img/NASA/Figure_4.3.png" alt="Figure 5 — Growth rate vs. wavenumber at J = 5.0 × 10^6 A/m^2." style="max-width: 900px; margin: 1rem auto; display:block;">
-  <span style="font-size: 0.9rem; color: gray;">Figure 5 — Growth rate vs. wavenumber at J = 5.0 × 10^6 A/m<sup>2</sup>.</span>
-</p>
 
-<p align="center">
-  <img src="../img/NSTGRO/fig6_growthrate_geometry.png" alt="Figure 6 — Growth rate vs. interelectrode separation / electrode length." style="max-width: 900px; margin: 1rem auto; display:block;">
-  <span style="font-size: 0.9rem; color: gray;">Figure 6 — Growth rate vs. interelectrode separation / electrode length.</span>
-</p>
-
-<p align="center">
-  <img src="../img/NSTGRO/fig7_growthrate_alpha.png" alt="Figure 7 — Growth rate vs. ionization fraction α." style="max-width: 900px; margin: 1rem auto; display:block;">
-  <span style="font-size: 0.9rem; color: gray;">Figure 7 — Growth rate vs. ionization fraction α.</span>
-</p>
 
 </div>

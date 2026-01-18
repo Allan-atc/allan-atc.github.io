@@ -56,6 +56,19 @@ period: CentraleSupelec Space Center for CubeSats
     cursor:pointer;
     margin-bottom:1rem;
   }
+  .gc-close{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:0.75rem;
+    font-weight:700;
+    font-size:1.15rem;
+    background:#f8f9fa;
+    border:1px solid rgba(0,0,0,.08);
+    border-radius:12px;
+    padding:.5rem .75rem;
+    cursor:pointer;
+  }
   .gc-toggle-arrow{
     display:inline-block;
     transition:transform .15s ease;
@@ -268,9 +281,9 @@ With this STM now representative of the flight configuration, we can proceed wit
 </p>
 
 <p style="text-align:center;">
-  <button type="button"
+  <button type="button" class="gc-close"
           onclick="const details = this.closest('details'); if (details) { details.removeAttribute('open'); details.scrollIntoView({behavior: 'smooth', block: 'start'}); }">
-    Close section
+    Close Part 1
   </button>
 </p>
 
@@ -464,9 +477,9 @@ I presented these results to CNES and Thales Alenia Space, and the Phase B revie
 </div>
 
 <p style="text-align:center;">
-  <button type="button"
+  <button type="button" class="gc-close"
           onclick="const details = this.closest('details'); if (details) { details.removeAttribute('open'); details.scrollIntoView({behavior: 'smooth', block: 'start'}); }">
-    Close section
+    Close Part 2
   </button>
 </p>
 

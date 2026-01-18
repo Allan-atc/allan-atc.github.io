@@ -258,7 +258,6 @@ Thanks to the STM, we obtained experimental measurements of the system mass and 
 </ul>
 
 According to iSiPod specifications, the center of gravity must lie within a 20 × 20 × 60 mm rectangular box around the geometric center. Our measured center of gravity falls comfortably inside this volume, providing strong evidence that the mass-dummy strategy was effective and that the STM is representative enough to support meaningful deployer and qualification testing.
-</p>
 
 <hr>
 

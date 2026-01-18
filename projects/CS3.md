@@ -332,14 +332,14 @@ I used a structured integrity-check process: run a resonance survey before and a
 <p> The resonance survey excites the CubeSat across a wide band to reveal its modes. I performed it before testing and after each test, enabling direct comparison of resonance frequencies and amplitudes. A significant change indicates internal failure or a mechanical-property change (loosening, damage, interface shift).
 </p>
 
-<p>Resonance survey</p>
+<p>Resonance survey:</p>
 <ul>
   <li>Input: 0.5 g, 5–2000 Hz, sweep rate 2 oct/min</li>
   <li>Success criterion: frequency shift &lt; 5% and amplitude shift &lt; 10% relative to the reference spectrum, evaluated over 5–120 Hz if the first mode is &lt; 120 Hz, otherwise 5 Hz up to the first mode</li>
 </ul>
 
 
-<p>Vibration environments</p>
+<p>Vibration environments:</p>
 <ul>
   <li>Quasi-static load: 12.5 g per axis at 35 Hz (represents launch accelerations)</li>
   <li>Sinusoidal vibration: 5–125 Hz with amplitude schedule, 2 oct/min (represents launcher oscillations)</li>

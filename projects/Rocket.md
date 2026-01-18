@@ -35,7 +35,7 @@ In my senior year of high school, I participated in a rocket-design competition 
 
 <hr>
 
-<h4>Technical approach</h4>
+<h4>Technical contribution</h4>
 <p>
 To meet these requirements, we used OpenRocket as the main design tool and followed a simulation-driven process. We ran simulations to converge on a configuration that satisfied the apogee and flight-time constraints. Based on the simulation results, we sized the recovery system accordingly, including a 76 cm diameter parachute to target the required descent profile. We iterated on geometry—nose cone shape, fin planform, and mass distribution—validated apogee, flight time, and stability in simulation, then built the hardware to match the simulated configuration as closely as possible.
 </p>
@@ -45,9 +45,8 @@ To meet these requirements, we used OpenRocket as the main design tool and follo
   <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 2 — OpenRocket simulation output</span>
 </p>
 
-<hr>
 
-<h4>Key design choices</h4>
+<h5>Key design choices</h5>
 <ul>
   <li>CAD design: I modeled the nose cone in SolidWorks, optimized its shape for subsonic flight, and 3D-printed it for integration on the rocket.</li>
   <li>Stability and fin sizing: We iterated on the number and type of fins to maintain stability in windy conditions while staying consistent with the simulation model. We chose simple square fins to reduce uncertainty relative to OpenRocket assumptions.</li>
@@ -58,7 +57,7 @@ To meet these requirements, we used OpenRocket as the main design tool and follo
 
 <hr>
 
-<h4>Results</h4>
+<h4>My results</h4>
 
 <p>
 <video controls playsinline preload="metadata" style="width: 100%; max-width: 300px; display: block; margin: 0.5rem auto;">

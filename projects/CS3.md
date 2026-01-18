@@ -69,6 +69,10 @@ period: CentraleSupelec Space Center for CubeSats
     padding:.5rem .75rem;
     cursor:pointer;
   }
+  .gc-close-wrap{
+    display:flex;
+    justify-content:center;
+  }
   .gc-toggle-arrow{
     display:inline-block;
     transition:transform .15s ease;
@@ -280,7 +284,7 @@ According to iSiPod specifications, the center of gravity must lie within a 20 Ã
 With this STM now representative of the flight configuration, we can proceed with mechanical testing and use the results to support Phase B validation, provided test outcomes meet expectations.
 </p>
 
-<p style="text-align:center;">
+<p class="gc-close-wrap">
   <button type="button" class="gc-close"
           onclick="const details = this.closest('details'); if (details) { details.removeAttribute('open'); details.scrollIntoView({behavior: 'smooth', block: 'start'}); }">
     Close Part 1
@@ -476,7 +480,7 @@ I presented these results to CNES and Thales Alenia Space, and the Phase B revie
 
 </div>
 
-<p style="text-align:center;">
+<p class="gc-close-wrap">
   <button type="button" class="gc-close"
           onclick="const details = this.closest('details'); if (details) { details.removeAttribute('open'); details.scrollIntoView({behavior: 'smooth', block: 'start'}); }">
     Close Part 2

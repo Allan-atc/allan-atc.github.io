@@ -106,7 +106,10 @@ Along with one other student, we formed the Structure & Thermal team. I was prim
 <hr>
 
 <details style="margin-top:1rem;">
-  <summary style="display:block; font-weight:700; font-size:1.15rem; background:#f8f9fa; border:1px solid rgba(0,0,0,.08); border-radius:12px; padding:.5rem .75rem; cursor:pointer; margin-bottom:1rem;">Part 1 - CAD</summary>
+  <summary style="display:flex; align-items:center; justify-content:space-between; gap:0.75rem; font-weight:700; font-size:1.15rem; background:#f8f9fa; border:1px solid rgba(0,0,0,.08); border-radius:12px; padding:.5rem .75rem; cursor:pointer; margin-bottom:1rem;">
+    <span>▸ Part 1 - CAD</span>
+    <span style="font-weight:400; font-size:0.9rem; color:#6c757d;">Read more</span>
+  </summary>
 <h4>STM requirements</h4>
 <ul>
   <li><strong>Form factor:</strong> compliant with a 3U envelope (340.5 × 100 × 100 mm) and compatible with P-POD-class interfaces via the ISIS iSiPod deployer.</li>
@@ -255,7 +258,10 @@ With this STM now representative of the flight configuration, we can proceed wit
 </details>
 
 <details style="margin-top:1rem;">
-  <summary style="display:block; font-weight:700; font-size:1.15rem; background:#f8f9fa; border:1px solid rgba(0,0,0,.08); border-radius:12px; padding:.5rem .75rem; cursor:pointer; margin-bottom:1rem;">Part 2 - mechanical</summary>
+  <summary style="display:flex; align-items:center; justify-content:space-between; gap:0.75rem; font-weight:700; font-size:1.15rem; background:#f8f9fa; border:1px solid rgba(0,0,0,.08); border-radius:12px; padding:.5rem .75rem; cursor:pointer; margin-bottom:1rem;">
+    <span>▸ Part 2 - mechanical</span>
+    <span style="font-weight:400; font-size:0.9rem; color:#6c757d;">Read more</span>
+  </summary>
 <h3>Project Part 2 — ESUS 3U CubeSat</h3>
 <div class="gc-part2">
 <h4>STM Mechanical Qualification Campaign and Vibration Test Results</h4>

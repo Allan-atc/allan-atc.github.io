@@ -14,13 +14,13 @@ period: NASA Space Technology Graduate Research — Stanford University
 <div class="container py-3">
 
 <p><strong>Program:</strong> NASA Space Technology Graduate Research (NSTGRO25)<br>
-<strong>Principal Investigator:</strong> Prof. Mark Cappelli (Stanford University)<br>
-<strong>NASA Research Collaborator:</strong> Dr. Kurt Polzin (NASA Marshall Space Flight Center)</p>
-<strong>Role:</strong> Graduate Research Fellow
+Principal Investigator: Prof. Mark Cappelli (Stanford University)<br>
+NASA Research Collaborator: Dr. Kurt Polzin (NASA Marshall Space Flight Center)</p>
+<p><strong>Role:</strong> Graduate Research Fellow</p>
 
 <hr>
 
-<h4>Objective</h4>
+<h4>Project Overview</h4>
 <p>
 High-power electric propulsion, including Nuclear Electric Propulsion (NEP), is a promising technology for future crewed and cargo missions to Mars. For high-power spacecraft, the self-field Magnetoplasmadynamic (MPD) configuration is especially attractive because it delivers strong performance.
 </p>
@@ -30,7 +30,7 @@ A major barrier to operating MPDs at high current, which enables high specific i
 </p>
 
 <p>
-<strong>Goal:</strong> develop a predictive, physics-based simulation framework capable of predicting onset, to guide design and operating conditions that extend thruster lifetime for MPD thrusters relevant to Mars missions.
+Goal: develop a predictive, physics-based simulation framework capable of predicting onset, to guide design and operating conditions that extend thruster lifetime for MPD thrusters relevant to Mars missions.
 </p>
 
 <hr>
@@ -75,7 +75,7 @@ This coupled system was validated by reproducing key trends reported in the expe
 </p>
 
 <ul>
-  <li><strong>Stability maps:</strong> growth rate vs. nondimensional wavenumber shows alternating stable and unstable bands.</li>
+  <li>Stability maps: growth rate vs. nondimensional wavenumber shows alternating stable and unstable bands.</li>
 </ul>
 <div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:flex-start;">
   <div style="max-width: 420px; flex: 1 1 320px; text-align:center;">
@@ -90,7 +90,7 @@ This coupled system was validated by reproducing key trends reported in the expe
 </p>
 
 <ul>
-  <li><strong>Current density sensitivity:</strong> increasing discharge current density increases instability growth rate and narrows the stable operating window.</li>
+  <li>Current density sensitivity: increasing discharge current density increases instability growth rate and narrows the stable operating window.</li>
 </ul>
 <p align="center">
   <img src="{{ '/img/NASA/Figure_4.3.png' | relative_url }}" alt="Figure 3 — Growth rate vs. wavenumber at J = 5.0 × 10^6 A/m^2" style="max-width: 500px; margin: 1rem auto; display:block;">
@@ -98,7 +98,7 @@ This coupled system was validated by reproducing key trends reported in the expe
 </p>
 
 <ul>
-  <li><strong>Geometry correlation:</strong> for fixed mass flow rate, decreasing interelectrode length increases stability.</li>
+  <li>Geometry correlation: for fixed mass flow rate, decreasing interelectrode length increases stability.</li>
 </ul>
 <p align="center">
   <img src="{{ '/img/NASA/Figure_4.5.png' | relative_url }}" alt="Figure 4 — Growth rate vs. interelectrode separation" style="max-width: 500px; margin: 1rem auto; display:block;">
@@ -106,7 +106,7 @@ This coupled system was validated by reproducing key trends reported in the expe
 </p>
 
 <ul>
-  <li><strong>Ionization-fraction threshold:</strong> strong sensitivity to near-anode ionization fraction. Above a critical value (approximately α ≈ 0.875), small current increases can lead to rapid stability loss.</li>
+  <li>Ionization-fraction threshold: strong sensitivity to near-anode ionization fraction. Above a critical value (approximately α ≈ 0.875), small current increases can lead to rapid stability loss.</li>
 </ul>
 <p align="center">
   <img src="{{ '/img/NASA/Figure_4.11%20alpha%20crit.png' | relative_url }}" alt="Figure 5 — Growth rate vs. ionization fraction α" style="max-width: 500px; margin: 1rem auto; display:block;">

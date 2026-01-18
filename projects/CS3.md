@@ -88,7 +88,7 @@ period: CentraleSupelec Space Center for CubeSats
 
 <hr>
 
-<h4>Objective</h4>
+<h4>Project Overview</h4>
 <p>
 ESUS is a CentraleSupelec 3U CubeSat scheduled for launch in 2027, developed end-to-end by a team of ~30 engineering students and 5 faculty advisors, with sponsorship and technical support from the French Space Agency and Thales Alenia Space. The mission carries two payloads:
 </p>
@@ -133,8 +133,8 @@ Along with one other student, we formed the Structure & Thermal team. I was prim
   </summary>
 <h4>STM requirements</h4>
 <ul>
-  <li><strong>Form factor:</strong> compliant with a 3U envelope (340.5 × 100 × 100 mm) and compatible with P-POD-class interfaces via the ISIS iSiPod deployer.</li>
-  <li><strong>Mechanical representativeness:</strong> replicate the mass distribution and equivalent inertia of the flight configuration.</li>
+  <li>Form factor: compliant with a 3U envelope (340.5 × 100 × 100 mm) and compatible with P-POD-class interfaces via the ISIS iSiPod deployer.</li>
+  <li>Mechanical representativeness: replicate the mass distribution and equivalent inertia of the flight configuration.</li>
 </ul>
 
 <h4>Success criteria</h4>
@@ -145,7 +145,8 @@ Along with one other student, we formed the Structure & Thermal team. I was prim
 
 <hr>
 
-<h4>Flight CAD architecture</h4>
+<h4>Technical contribution</h4>
+<h5>Flight CAD architecture</h5>
 <p>
 I first created a full flight-representative CAD baseline of ESUS using real subsystem geometry—some provided by CNES, and some produced internally (by other students for the payload for example) or by me. This CAD was used to:
 </p>
@@ -180,15 +181,14 @@ I first created a full flight-representative CAD baseline of ESUS using real sub
   </div>
 </div>
 
-<hr>
 
-<h4>From CAD to STM: why mass dummies were necessary</h4>
+<h5>From CAD to STM: why mass dummies were necessary</h5>
 
-<p><strong>The problem we had to solve</strong><br>
+<p>The problem we had to solve<br>
 During Phase B, several flight components were not yet physically available—especially items provided by CNES and parts of the payload—although we did have the mechanical information needed to model them. Waiting for all flight hardware would have delayed system-level verification by months to years, preventing timely Phase B validation with sponsors.
 </p>
 
-<p><strong>The decision</strong><br>
+<p>The decision<br>
 I used mass dummies as an engineering solution. Even without final hardware, this approach allowed us to validate the mechanical aspects for Phase B:
 </p>
 
@@ -218,9 +218,7 @@ To make the STM representative, dummy masses were sized using datasheet componen
 </figure>
 
 
-<hr>
-
-<h4>STM definition, build, and integration</h4>
+<h5>STM definition, build, and integration</h5>
 <p>The STM reproduces the CubeSat partitioning of the flight design:</p>
 
 <!-- STM internal views -->
@@ -263,11 +261,10 @@ Thanks to the STM, we obtained experimental measurements of the system mass and 
 </p>
 
 <ul>
-  <li><strong>Total mass:</strong> 2998 g (target was 3 kg)</li>
-  <li><strong>Center of gravity offset relative to the structural geometric center:</strong> x = 0 mm, y = 2 mm, z = 7 mm</li>
+  <li>Total mass: 2998 g (target was 3 kg)</li>
+  <li>Center of gravity offset relative to the structural geometric center: x = 0 mm, y = 2 mm, z = 7 mm</li>
 </ul>
 
-<p><strong>Compliance with iSiPod requirements</strong><br>
 According to iSiPod specifications, the center of gravity must lie within a 20 × 20 × 60 mm rectangular box around the geometric center. Our measured center of gravity falls comfortably inside this volume, providing strong evidence that the mass-dummy strategy was effective and that the STM is representative enough to support meaningful deployer and qualification testing.
 </p>
 
@@ -288,7 +285,7 @@ With this STM now representative of the flight configuration, we can proceed wit
     <span style="font-weight:400; font-size:0.9rem; color:#6c757d;">Read more</span>
   </summary>
 <div class="gc-part2">
-<h4>Objective</h4>
+<h4>Technical contribution</h4>
 <p>
 Led the STM mechanical qualification campaign focused on deployer constraints and launcher vibration environments.
 </p>
@@ -302,12 +299,10 @@ I owned the end-to-end engineering work for the STM vibration qualification acti
   <li>Performed integrity assessment using pre-/post-resonance surveys and response analysis to identify any mechanical change.</li>
 </ul>
 
-<hr>
-
-<h4>Test setup and instrumentation</h4>
+<h5>Test setup and instrumentation</h5>
 <ul>
-  <li><strong>Reference frame and axes:</strong> testing was performed along the CubeSat axes X, Y, Z.</li>
-  <li><strong>Instrumentation strategy:</strong> I instrumented the STM with tri-axial accelerometers to capture both input control levels and the structural response. The core configuration used three 3-axis accelerometers, including one mounted at the card-rack center, plus additional sensors when needed for subsystem-level insight.</li>
+  <li>Reference frame and axes: testing was performed along the CubeSat axes X, Y, Z.</li>
+  <li>Instrumentation strategy: I instrumented the STM with tri-axial accelerometers to capture both input control levels and the structural response. The core configuration used three 3-axis accelerometers, including one mounted at the card-rack center, plus additional sensors when needed for subsystem-level insight.</li>
   <li>The accelerometer placed at the rack center is the most relevant measurement because it captures what the internal stack actually experiences, not just the shaker table input.</li>
 </ul>
 
@@ -338,31 +333,30 @@ photo STM dans ISIPOD
   </div>
 </div>
 
-<hr>
 
-<h4>Test plan and acceptance criteria</h4>
+<h5>Test plan and acceptance criteria</h5>
 <p>
 I used a structured integrity-check process: run a resonance survey before and after each environment to detect any mechanical change. Because the launcher had not been selected yet, I used the Arianespace VEGA vibration requirements as the reference case (most restrictive at the time).
 </p>
 
-<p><strong>Resonance survey</strong></p>
+<p>Resonance survey</p>
 <ul>
-  <li><strong>Input:</strong> 0.5 g, 5–2000 Hz, sweep rate 2 oct/min.</li>
+  <li>Input: 0.5 g, 5–2000 Hz, sweep rate 2 oct/min.</li>
 </ul>
 
-<p><strong>Acceptance logic</strong><br>
+<p>Acceptance logic<br>
 The resonance survey excites the CubeSat across a wide band to reveal its modes. I performed it before testing and after each test, enabling direct comparison of resonance frequencies and amplitudes. A significant change indicates internal failure or a mechanical-property change (loosening, damage, interface shift).
 </p>
 
 <ul>
-  <li><strong>Success criterion:</strong> frequency shift &lt; 5% and amplitude shift &lt; 10% on the reference spectrum, over the comparison band (5 Hz to 120 Hz if the first mode is &lt;120 Hz, otherwise 5 Hz to the first mode).</li>
+  <li>Success criterion: frequency shift &lt; 5% and amplitude shift &lt; 10% on the reference spectrum, over the comparison band (5 Hz to 120 Hz if the first mode is &lt;120 Hz, otherwise 5 Hz to the first mode).</li>
 </ul>
 
-<p><strong>Vibration environments</strong></p>
+<p>Vibration environments</p>
 <ul>
-  <li><strong>Quasi-static load:</strong> 12.5 g per axis at 35 Hz (represents launch accelerations)</li>
-  <li><strong>Sinusoidal vibration:</strong> 5–125 Hz with amplitude schedule, 2 oct/min (represents launcher oscillations)</li>
-  <li><strong>Random vibration:</strong> 20–2000 Hz PSD profile, 8.85 gRMS target, 120 s duration (stresses components and validates assembly)</li>
+  <li>Quasi-static load: 12.5 g per axis at 35 Hz (represents launch accelerations)</li>
+  <li>Sinusoidal vibration: 5–125 Hz with amplitude schedule, 2 oct/min (represents launcher oscillations)</li>
+  <li>Random vibration: 20–2000 Hz PSD profile, 8.85 gRMS target, 120 s duration (stresses components and validates assembly)</li>
 </ul>
 
 <hr>
@@ -374,9 +368,9 @@ The resonance survey excites the CubeSat across a wide band to reveal its modes.
 The first natural frequencies measured on the STM were:
 </p>
 <ul>
-  <li><strong>X axis:</strong> 385 Hz</li>
-  <li><strong>Y axis:</strong> 230 Hz</li>
-  <li><strong>Z axis:</strong> 290 Hz</li>
+  <li>X axis: 385 Hz</li>
+  <li>Y axis: 230 Hz</li>
+  <li>Z axis: 290 Hz</li>
 </ul>
 
 <p>
@@ -392,9 +386,7 @@ This meets the requirement of a first mode &gt; 100 Hz with a safety factor of 2
   <figcaption class="gc-caption">Figure 10 — Comparison of resonance surveys along the X-axis for the accelerometer mounted at the satellite center</figcaption>
 </figure>
 
-<hr>
-
-<h5>2) Quasi-static load performance</h5>
+<h5>Quasi-static load performance</h5>
 <p>
 From the quasi-static load test, the measured response at the STM accelerometers remained close to the commanded lateral acceleration, indicating an almost unit transfer function between the shaker input and the STM response. On the Z-axis, the maximum amplification factor was Q = 1.084, consistent with a stiff, well-coupled structure in this frequency range.
 </p>
@@ -424,9 +416,7 @@ From the quasi-static load test, the measured response at the STM accelerometers
   </table>
 </div>
 
-<hr>
-
-<h5>3) Sinusoidal vibration response</h5>
+<h5>Sinusoidal vibration response</h5>
 <p>
 The structure response showed very limited amplification in the 5–120 Hz band:
 </p>
@@ -451,8 +441,6 @@ This is consistent with the STM having no structural natural frequency within 5�
     </figure>
   </div>
 </div>
-
-<hr>
 
 <h5>Random vibration performance</h5>
 <p>

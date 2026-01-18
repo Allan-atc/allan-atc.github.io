@@ -145,7 +145,7 @@ Along with one other student, we formed the Structure & Thermal team. I was prim
 
 <hr>
 
-<h4>1) Flight CAD architecture</h4>
+<h4>Flight CAD architecture</h4>
 <p>
 I first created a full flight-representative CAD baseline of ESUS using real subsystem geometry—some provided by CNES, and some produced internally (by other students for the payload for example) or by me. This CAD was used to:
 </p>
@@ -182,7 +182,7 @@ I first created a full flight-representative CAD baseline of ESUS using real sub
 
 <hr>
 
-<h4>2) From CAD to STM: why mass dummies were necessary</h4>
+<h4>From CAD to STM: why mass dummies were necessary</h4>
 
 <p><strong>The problem we had to solve</strong><br>
 During Phase B, several flight components were not yet physically available—especially items provided by CNES and parts of the payload—although we did have the mechanical information needed to model them. Waiting for all flight hardware would have delayed system-level verification by months to years, preventing timely Phase B validation with sponsors.
@@ -220,7 +220,7 @@ To make the STM representative, dummy masses were sized using datasheet componen
 
 <hr>
 
-<h4>3) STM definition, build, and integration</h4>
+<h4>STM definition, build, and integration</h4>
 <p>The STM reproduces the CubeSat partitioning of the flight design:</p>
 
 <!-- STM internal views -->
@@ -257,7 +257,7 @@ To make the STM representative, dummy masses were sized using datasheet componen
 
 <hr>
 
-<h4>4) Results</h4>
+<h4>My Results</h4>
 <p>
 Thanks to the STM, we obtained experimental measurements of the system mass and center of gravity location. Using the assembled STM, we measured:
 </p>
@@ -283,10 +283,7 @@ With this STM now representative of the flight configuration, we can proceed wit
     <span><span class="gc-toggle-arrow">▸</span> Part 2 - Mechanical Qualification Testing</span>
     <span style="font-weight:400; font-size:0.9rem; color:#6c757d;">Read more</span>
   </summary>
-<h3>Project Part 2 — ESUS 3U CubeSat</h3>
 <div class="gc-part2">
-<h4>STM Mechanical Qualification Campaign and Vibration Test Results</h4>
-
 <h4>Objective</h4>
 <p>
 Led the STM mechanical qualification campaign focused on deployer constraints and launcher vibration environments.
@@ -368,7 +365,7 @@ The resonance survey excites the CubeSat across a wide band to reveal its modes.
 
 <h4>Results</h4>
 
-<h5>1) Resonance survey and structural integrity</h5>
+<h5>Resonance survey and structural integrity</h5>
 <p>
 The first natural frequencies measured on the STM were:
 </p>
@@ -453,7 +450,7 @@ This is consistent with the STM having no structural natural frequency within 5�
 
 <hr>
 
-<h5>4) Random vibration performance</h5>
+<h5>Random vibration performance</h5>
 <p>
 Random vibration was performed with the VEGA PSD profile (20–2000 Hz, 8.85 gRMS, 120 s). The achieved control levels were close to the specification on each axis. The structural PSD measured on the STM captured the system response and confirmed stable behavior under broadband excitation.
 </p>

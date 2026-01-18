@@ -4,7 +4,7 @@ type: project
 image: img/Rocket/Rocket1.JPG
 title: "PEGGASUS — Rocket Design Project"
 permalink: /projects/peggasus/
-start_date: March 2020
+start_date: 2020-03-01
 end_date: 
 published: true
 summary: "One-week, simulation-driven rocket design and build meeting a strict apogee, flight-time, landing-speed, and payload-recovery requirement set."
@@ -17,7 +17,7 @@ period: High School Rocket Design Competition
 
 <h4>Objective</h4>
 <p>
-In my senior year of high school, I participated in a rocket-design competition where, as a team of four, we designed and built a rocket to satisfy a strict set of requirements:
+In my senior year of high school, I participated in a rocket-design competition where, as a team of four, we designed and built a rocket named PEGGASUS to satisfy a strict set of requirements:
 </p>
 
 <ul>
@@ -65,6 +65,7 @@ To meet these requirements, we used <strong>OpenRocket</strong> as the main desi
   <source src="{{ '/img/Rocket/video%20fusee.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+<span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">PEGGASUS launch</span>
 </p>
 
 <ul>

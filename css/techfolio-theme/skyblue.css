@@ -107,6 +107,23 @@ h1,
   display: block;
 }
 
+.tf-project-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 0.75rem;
+}
+
+.tf-project-title-text {
+  flex: 1 1 12rem;
+  min-width: 0;
+}
+
+.tf-project-date {
+  margin-left: auto;
+  white-space: nowrap;
+}
+
 @media (max-width: 576px) {
   .tf-project-card {
     grid-template-columns: 1fr;
@@ -116,4 +133,3 @@ h1,
     height: 220px;
   }
 }
-

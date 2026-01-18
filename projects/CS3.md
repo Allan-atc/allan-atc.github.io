@@ -5,7 +5,7 @@ image: img/CS3/ESUS1.png
 image_fit: contain
 title: "3U CubeSat: ESUS"
 permalink: /projects/CS3/
-start_date: January 2023
+start_date: 2023-01-01
 end_date: July 2024
 published: true
 summary: "Built the flight-representative mechanical CAD of a 3U CubeSat and derived the first Structural & Thermal Model (STM) to validate Phase B through deployer compatibility and mass-property verification."

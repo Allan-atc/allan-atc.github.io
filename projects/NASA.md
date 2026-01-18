@@ -4,7 +4,7 @@ type: project
 image: img/NASA/MPD.png
 title: "Computational Modeling of a Lithium Magnetoplasmadynamic Thruster for Nuclear Electric Propulsion"
 permalink: /projects/nasa/
-start_date: August 2025
+start_date: 2025-08-01
 end_date: Present
 published: true
 summary: "This work aims to advance high-power propulsion for long-duration missions to Mars by optimizing thruster designs using a stability-oriented modeling framework."

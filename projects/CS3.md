@@ -257,7 +257,7 @@ To make the STM representative, dummy masses were sized using datasheet componen
 
 <hr>
 
-<h4>My Results</h4>
+<h4>My results</h4>
 <p>
 Thanks to the STM, we obtained experimental measurements of the system mass and center of gravity location. Using the assembled STM, we measured:
 </p>
@@ -270,6 +270,10 @@ Thanks to the STM, we obtained experimental measurements of the system mass and 
 <p><strong>Compliance with iSiPod requirements</strong><br>
 According to iSiPod specifications, the center of gravity must lie within a 20 × 20 × 60 mm rectangular box around the geometric center. Our measured center of gravity falls comfortably inside this volume, providing strong evidence that the mass-dummy strategy was effective and that the STM is representative enough to support meaningful deployer and qualification testing.
 </p>
+
+<hr>
+
+<h4>Conclusion</h4>
 
 <p>
 With this STM now representative of the flight configuration, we can proceed with mechanical testing and use the results to support Phase B validation, provided test outcomes meet expectations.
@@ -363,7 +367,7 @@ The resonance survey excites the CubeSat across a wide band to reveal its modes.
 
 <hr>
 
-<h4>Results</h4>
+<h4>My results</h4>
 
 <h5>Resonance survey and structural integrity</h5>
 <p>

@@ -7,8 +7,8 @@ permalink: /projects/nasa/
 start_date: 2025-08-01
 end_date: Present
 published: true
-summary: "This work aims to advance high-power propulsion for long-duration missions to Mars by optimizing thruster designs using a stability-oriented modeling framework."
-period: NASA Space Technology Graduate Research - Stanford University
+summary: "Developed a stability-oriented modeling framework to advance high-power propulsion for long-duration missions to Mars by optimizing thruster design. Implemented and coupled a 0D linear stability model with a 1D two-fluid plasma solver to map stability across operating conditions."
+period: NASA Space Technology Graduate Research — Stanford University
 ---
 
 <div class="container py-3">

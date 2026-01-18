@@ -3,13 +3,13 @@ layout: project
 type: project
 image: img/CS3/ESUS1.png
 image_fit: contain
-title: "3U CubeSat: ESUS"
+title: "ESUS CubeSat — Mechanical Design, Integration, and Qualification Testing"
 permalink: /projects/CS3/
 start_date: 2023-01-01
 end_date: July 2024
 published: true
-summary: "Built the flight-representative mechanical CAD of a 3U CubeSat and derived the first Structural & Thermal Model (STM) to validate Phase B through deployer compatibility and mass-property verification."
-period: CentraleSupélec Space Center for CubeSats
+summary: "CAD-designed and manufactured the flight-representative mechanical structure of a 3U CubeSat. Led subsystem integration, structural analysis, and qualification testing to validate Phase B through deployer interface compliance and launcher vibration qualification."
+period: CentraleSupelec Space Center for CubeSats
 ---
 
 <div class="container py-3">

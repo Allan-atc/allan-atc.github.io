@@ -7,8 +7,8 @@ permalink: /projects/peggasus/
 start_date: 2020-03-01
 end_date: 
 published: true
-summary: "One-week, simulation-driven rocket design and build meeting a strict apogee, flight-time, landing-speed, and payload-recovery requirement set."
-period: High School Rocket Design Competition
+summary: "Designed and built a one-meter rocket as part of a competition. Used simulations to meet apogee, flight-time, landing-speed, and payload-recovery requirements."
+period: High School Rocket Club
 ---
 
 <div class="container py-3">
@@ -29,7 +29,7 @@ In my senior year of high school, I participated in a rocket-design competition 
 </ul>
 
 <p align="center">
-  <img src="{{ 'img/Rocket/Rocket1.JPG' | relative_url }}" alt="PEGGASUS launch" style="max-width: 600px; margin: 1rem auto; display:block;">
+  <img src="{{ 'img/Rocket/Rocket1.JPG' | relative_url }}" alt="PEGGASUS launch" style="max-width: 700px; margin: 1rem auto; display:block;">
   <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 1 — PEGGASUS at liftoff</span>
 </p>
 
@@ -228,7 +228,7 @@ To meet these requirements, we used <strong>OpenRocket</strong> as the main desi
 
 <p align="center">
   <img src="{{ 'img/Rocket/rocket destroy.JPG' | relative_url }}" alt="Post-flight rocket condition" style="max-width: 900px; margin: 1rem auto; display:block;">
-  <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 3 — Post-flight condition (Rapid Unscheduled Disassembly)</span>
+  <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 3 — Post-flight condition (after a rapid unscheduled disassembly)</span>
 </p>
 
 </div>

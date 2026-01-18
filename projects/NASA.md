@@ -13,10 +13,12 @@ period: NASA Space Technology Graduate Research — Stanford University
 
 <div class="container py-3">
 
-<p><strong>Program:</strong> NASA Space Technology Graduate Research (NSTGRO25)<br>
-Principal Investigator: Prof. Mark Cappelli (Stanford University)<br>
-NASA Research Collaborator: Dr. Kurt Polzin (NASA Marshall Space Flight Center)</p>
-<p><strong>Role:</strong> Graduate Research Fellow</p>
+<p>
+<strong>Program:</strong> NASA Space Technology Graduate Research (NSTGRO25)<br>
+<strong>Principal Investigator:</strong> Prof. Mark Cappelli (Stanford University)<br>
+<strong>NASA Research Collaborator:</strong> Dr. Kurt Polzin (NASA Marshall Space Flight Center<br>
+<strong>Role:</strong> Graduate Research Fellow
+</p>
 
 <hr>
 

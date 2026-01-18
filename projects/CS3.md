@@ -131,19 +131,6 @@ Along with one other student, we formed the Structure & Thermal team. I was prim
     <span><span class="gc-toggle-arrow">▸</span> Part 1 - Mechanical Design and Build</span>
     <span style="font-weight:400; font-size:0.9rem; color:#6c757d;">Read more</span>
   </summary>
-<h4>STM requirements</h4>
-<ul>
-  <li>Form factor: compliant with a 3U envelope (340.5 × 100 × 100 mm) and compatible with P-POD-class interfaces via the ISIS iSiPod deployer.</li>
-  <li>Mechanical representativeness: replicate the mass distribution and equivalent inertia of the flight configuration.</li>
-</ul>
-
-<h4>Success criteria</h4>
-<ul>
-  <li>Same external geometry and interface features as the flight configuration.</li>
-  <li>Equivalent system-level mass and inertia behavior and consistent subsystem placement, sufficient to replicate launch and on-orbit mechanical loads.</li>
-</ul>
-
-<hr>
 
 <h4>Technical contribution</h4>
 <h5>Flight CAD architecture</h5>
@@ -219,6 +206,20 @@ To make the STM representative, dummy masses were sized using datasheet componen
 
 
 <h5>STM definition, build, and integration</h5>
+
+<p>STM requirements:</p>
+<ul>
+  <li>Form factor: compliant with a 3U envelope (340.5 × 100 × 100 mm) and compatible with P-POD-class interfaces via the ISIS iSiPod deployer.</li>
+  <li>Mechanical representativeness: replicate the mass distribution and equivalent inertia of the flight configuration.</li>
+</ul>
+
+<p>Success criteria:</p>
+<ul>
+  <li>Same external geometry and interface features as the flight configuration.</li>
+  <li>Equivalent system-level mass and inertia behavior and consistent subsystem placement, sufficient to replicate launch and on-orbit mechanical loads.</li>
+</ul>
+
+<hr>
 <p>The STM reproduces the CubeSat partitioning of the flight design:</p>
 
 <!-- STM internal views -->
@@ -305,9 +306,6 @@ I owned the end-to-end engineering work for the STM vibration qualification acti
   <li>Instrumentation strategy: I instrumented the STM with tri-axial accelerometers to capture both input control levels and the structural response. The core configuration used three 3-axis accelerometers, including one mounted at the card-rack center, plus additional sensors when needed for subsystem-level insight.</li>
   <li>The accelerometer placed at the rack center is the most relevant measurement because it captures what the internal stack actually experiences, not just the shaker table input.</li>
 </ul>
-
-photo accelerometre STM 
-photo STM dans ISIPOD
 
 
 <div class="row g-3 justify-content-center">

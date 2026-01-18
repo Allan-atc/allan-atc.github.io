@@ -272,6 +272,33 @@ I owned the end-to-end engineering work for the STM vibration qualification acti
   <li>The accelerometer placed at the rack center is the most relevant measurement because it captures what the internal stack actually experiences, not just the shaker table input.</li>
 </ul>
 
+photo accelerometre STM 
+photo STM dans ISIPOD
+
+
+<div class="row g-3 justify-content-center">
+  <div class="col-md-6">
+    <figure class="gc-figure">
+      <div class="gc-frame gc-h-md d-flex align-items-center">
+        <img src="{{ 'img/CS3/STM dans ISIPOD.jpg' | relative_url }}"
+             alt="STM open — internal stack and structure"
+             class="gc-media" loading="lazy" decoding="async">
+      </div>
+      <figcaption style="font-size: 0.9rem; color: gray; text-align: center;">Figure 8 — ESUS inside the deployer, mounted on the shaker table in the test configuration</figcaption>
+    </figure>
+  </div>
+  <div class="col-md-6">
+    <figure class="gc-figure">
+      <div class="gc-frame gc-h-md d-flex align-items-center">
+        <img src="{{ 'img/CS3/accelerometre STM.jpg' | relative_url }}"
+             alt="CAD — card rack stack-up with PC104 spacing logic"
+             class="gc-media" loading="lazy" decoding="async">
+      </div>
+      <figcaption style="font-size: 0.9rem; color: gray; text-align: center;">Figure 9 — Accelerometer placement on ESUS for vibration testing</figcaption>
+    </figure>
+  </div>
+</div>
+
 <hr>
 
 <h4>Test plan and acceptance criteria</h4>
@@ -319,11 +346,11 @@ This meets the requirement of a first mode &gt; 100 Hz with a safety factor of 2
 
 <figure class="gc-figure mx-auto" style="max-width: 760px;">
   <div class="gc-frame gc-h-md d-flex align-items-center">
-    <img src="{{ '/img/CS3/part2/Figure21_RDR_X.png' | relative_url }}"
+    <img src="{{ 'img/CS3/resonance survey.png' | relative_url }}"
          alt="Amplitude response of the structure accelerometer (X-axis): first vs last resonance survey"
          class="gc-media" loading="lazy" decoding="async">
   </div>
-  <figcaption class="gc-caption">Figure 21 — Comparison of resonance surveys along the X-axis for the accelerometer mounted at the satellite center</figcaption>
+  <figcaption class="gc-caption">Figure 8 — Comparison of resonance surveys along the X-axis for the accelerometer mounted at the satellite center</figcaption>
 </figure>
 
 <hr>
@@ -358,15 +385,6 @@ From the quasi-static load test, the measured response at the STM accelerometers
   </table>
 </div>
 
-<figure class="gc-figure mx-auto" style="max-width: 760px;">
-  <div class="gc-frame gc-h-md d-flex align-items-center">
-    <img src="{{ '/img/CS3/part2/Figure_QS1_Z.png' | relative_url }}"
-         alt="Quasi-static load: measured acceleration levels at control point vs STM response (Z-axis)"
-         class="gc-media" loading="lazy" decoding="async">
-  </div>
-  <figcaption class="gc-caption">Figure QS1 — Quasi-static load: control input vs STM response (Z-axis)</figcaption>
-</figure>
-
 <hr>
 
 <h5>3) Sinusoidal vibration response</h5>
@@ -386,11 +404,11 @@ This is consistent with the STM having no structural natural frequency within 5�
   <div class="col-md-6">
     <figure class="gc-figure">
       <div class="gc-frame gc-h-md d-flex align-items-center">
-        <img src="{{ '/img/CS3/part2/Figure7_Sine_Response_X.png' | relative_url }}"
+        <img src="{{ 'img/CS3/figure7.jpg' | relative_url }}"
              alt="Structure accelerometer response during sinusoidal vibration (X-axis)"
              class="gc-media" loading="lazy" decoding="async">
       </div>
-      <figcaption class="gc-caption">Figure 7 — Structure accelerometer response during sinusoidal vibration (X-axis)</figcaption>
+      <figcaption class="gc-caption">Figure 9 — Structure accelerometer response during sinusoidal vibration (X-axis)</figcaption>
     </figure>
   </div>
 </div>
@@ -401,30 +419,6 @@ This is consistent with the STM having no structural natural frequency within 5�
 <p>
 Random vibration was performed with the VEGA PSD profile (20–2000 Hz, 8.85 gRMS, 120 s). The achieved control levels were close to the specification on each axis. The structural PSD measured on the STM captured the system response and confirmed stable behavior under broadband excitation.
 </p>
-
-<div class="row g-3 justify-content-center">
-  <div class="col-md-6">
-    <figure class="gc-figure">
-      <div class="gc-frame gc-h-md d-flex align-items-center">
-        <img src="{{ '/img/CS3/part2/Figure12_Random_Pilot_X.png' | relative_url }}"
-             alt="Pilot data: measured PSD profile during random vibration (X-axis)"
-             class="gc-media" loading="lazy" decoding="async">
-      </div>
-      <figcaption class="gc-caption">Figure 12 — Pilot data: measured PSD profile during random vibration (X-axis)</figcaption>
-    </figure>
-  </div>
-  <div class="col-md-6">
-    <figure class="gc-figure">
-      <div class="gc-frame gc-h-md d-flex align-items-center">
-        <img src="{{ '/img/CS3/part2/Figure15_Random_Response_X.png' | relative_url }}"
-             alt="Structure accelerometer PSD during random vibration (X-axis)"
-             class="gc-media" loading="lazy" decoding="async">
-      </div>
-      <figcaption class="gc-caption">Figure 15 — Structure accelerometer PSD during random vibration (X-axis)</figcaption>
-    </figure>
-  </div>
-</div>
-
 <hr>
 
 <h4>Issues</h4>
@@ -436,16 +430,16 @@ Beyond validating global dynamic behavior, the campaign also surfaced an integra
 
 <h4>Conclusion</h4>
 <p>
-I presented these results to CNES and Thales Alenia Space in Toulouse, and the Phase B review was validated.
+I presented these results to CNES and Thales Alenia Space, and the Phase B review was validated.
 </p>
 
 <figure class="gc-figure mx-auto" style="max-width: 780px;">
   <div class="gc-frame gc-h-md d-flex align-items-center">
-    <img src="{{ '/img/CS3/photoequipe.jpg' | relative_url }}"
+    <img src="{{ 'img/CS3/photoequipe.jpeg' | relative_url }}"
          alt="ESUS team photo"
          class="gc-media" loading="lazy" decoding="async">
   </div>
-  <figcaption class="gc-caption">Recommended photo — ESUS team (with me)</figcaption>
+  <figcaption class="gc-caption">Figure 10 - ESUS team in Toulouse, France, after Phase B validation</figcaption>
 </figure>
 
 

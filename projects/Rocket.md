@@ -61,7 +61,7 @@ To meet these requirements, we used <strong>OpenRocket</strong> as the main desi
 <h4>Results</h4>
 
 <p>
-<video controls playsinline preload="metadata" style="width: 100%; max-width: 500px; display: block; margin: 0.5rem auto;">
+<video controls playsinline preload="metadata" style="width: 100%; max-width: 300px; display: block; margin: 0.5rem auto;">
   <source src="{{ '/img/Rocket/video%20fusee.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>

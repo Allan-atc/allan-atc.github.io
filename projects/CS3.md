@@ -169,14 +169,18 @@ I first created a full flight-representative CAD baseline of ESUS using real sub
 </div>
 
 
-<h5>From CAD to STM: why mass dummies were necessary</h5>
+<h5>From CAD to STM</h5>
 
-<p>The problem we had to solve<br>
+<p>
+  STM requirements were to remain compliant with the 3U envelope (340.5 × 100 × 100 mm) and compatible with P-POD-class interfaces via the ISIS iSiPod deployer, while replicating the flight mass distribution and equivalent inertia. Success was defined by matching the external geometry and interface features of the flight configuration, and by achieving system-level mass and inertia behavior with subsystem placement consistent enough to reproduce launch and on-orbit mechanical loads.
+</p>
+
+<p>
 During Phase B, several flight components were not yet physically available—especially items provided by CNES and parts of the payload—although we did have the mechanical information needed to model them. Waiting for all flight hardware would have delayed system-level verification by months to years, preventing timely Phase B validation with sponsors.
 </p>
 
-<p>The decision<br>
-I used mass dummies as an engineering solution. Even without final hardware, this approach allowed us to validate the mechanical aspects for Phase B:
+<p>
+The solution was to use mass dummies.. Even without final hardware, this approach allowed us to validate the mechanical aspects for Phase B:
 </p>
 
 <ul>
@@ -207,19 +211,6 @@ To make the STM representative, dummy masses were sized using datasheet componen
 
 <h5>STM definition, build, and integration</h5>
 
-<p>STM requirements:</p>
-<ul>
-  <li>Form factor: compliant with a 3U envelope (340.5 × 100 × 100 mm) and compatible with P-POD-class interfaces via the ISIS iSiPod deployer.</li>
-  <li>Mechanical representativeness: replicate the mass distribution and equivalent inertia of the flight configuration.</li>
-</ul>
-
-<p>Success criteria:</p>
-<ul>
-  <li>Same external geometry and interface features as the flight configuration.</li>
-  <li>Equivalent system-level mass and inertia behavior and consistent subsystem placement, sufficient to replicate launch and on-orbit mechanical loads.</li>
-</ul>
-
-<hr>
 <p>The STM reproduces the CubeSat partitioning of the flight design:</p>
 
 <!-- STM internal views -->

@@ -8,7 +8,7 @@ permalink: /projects/CS3/
 start_date: 2023-01-01
 end_date: July 2024
 published: true
-summary: "CAD-designed and manufactured the flight-representative mechanical structure of a 3U CubeSat. Led subsystem integration, structural analysis, and qualification testing to validate Phase B through deployer interface compliance and launcher vibration qualification."
+summary: "CAD-designed and manufactured the flight-representative mechanical structure of a 3U CubeSat. Owned Phase B mechanical qualification, defined the test approach, and demonstrated compliance with deployment constraints and launch vibration loads."
 period: CentraleSupelec Space Center for CubeSats
 ---
 

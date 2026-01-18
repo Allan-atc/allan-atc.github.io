@@ -59,6 +59,22 @@ period: CentraleSupélec Space Center for CubeSats
 
 <!-- STM hero (open + closed) -->
 <!-- STM hero (open + closed) -->
+
+
+<h4>Objective</h4>
+<p>
+ESUS is a CentraleSupelec 3U CubeSat scheduled for launch in 2027, developed end-to-end by a team of ~30 engineering students and 5 faculty advisors, with sponsorship and technical support from the French Space Agency and Thales Alenia Space. The mission carries two payloads:
+</p>
+
+<ul>
+  <li>an interferometer to measure the Sun’s diameter,</li>
+  <li>an AI camera that analyzes images onboard and discards frames with excessive cloud cover to reduce memory and power usage.</li>
+</ul>
+
+<p>
+Along with one other student, we formed the Structure & Thermal team. I was primarily responsible for the structural work, while my teammate focused on thermal aspects; however, the two domains were tightly coupled and required coordination. I built the flight-representative mechanical CAD of ESUS and derived from it the first Structural & Thermal Model (STM) to validate Phase B (Preliminary Design & Technology Completion) through mechanical qualification activities.
+</p>
+
 <div class="row g-3 justify-content-center">
   <div class="col-md-6">
     <figure class="gc-figure">
@@ -80,22 +96,6 @@ period: CentraleSupélec Space Center for CubeSats
     </figure>
   </div>
 </div>
-
-<hr>
-
-<h4>Objective</h4>
-<p>
-ESUS is a CentraleSupelec 3U CubeSat scheduled for launch in 2027, developed end-to-end by a team of ~30 engineering students and 5 faculty advisors, with sponsorship and technical support from the French Space Agency and Thales Alenia Space. The mission carries two payloads:
-</p>
-
-<ul>
-  <li>an interferometer to measure the Sun’s diameter,</li>
-  <li>an AI camera that analyzes images onboard and discards frames with excessive cloud cover to reduce memory and power usage.</li>
-</ul>
-
-<p>
-Along with one other student, we formed the Structure & Thermal team. I was primarily responsible for the structural work, while my teammate focused on thermal aspects; however, the two domains were tightly coupled and required coordination. I built the flight-representative mechanical CAD of ESUS and derived from it the first Structural & Thermal Model (STM) to validate Phase B (Preliminary Design & Technology Completion) through mechanical qualification activities.
-</p>
 
 <hr>
 

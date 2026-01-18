@@ -29,8 +29,8 @@ In my senior year of high school, I participated in a rocket-design competition 
 </ul>
 
 <p align="center">
-  <img src="{{ 'img/Rocket/Rocket1.JPG' | relative_url }}" alt="PEGGASUS launch" style="max-width: 900px; margin: 1rem auto; display:block;">
-  <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 1 — PEGGASUS at liftoff (launch configuration).</span>
+  <img src="{{ 'img/Rocket/Rocket1.JPG' | relative_url }}" alt="PEGGASUS launch" style="max-width: 700px; margin: 1rem auto; display:block;">
+  <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 1 — PEGGASUS at liftoff</span>
 </p>
 
 <hr>
@@ -42,7 +42,7 @@ To meet these requirements, we used <strong>OpenRocket</strong> as the main desi
 
 <p align="center">
   <img src="{{ 'img/Rocket/Simulation Rocket.png' | relative_url }}" alt="OpenRocket simulation results" style="max-width: 750px; margin: 1rem auto; display:block;">
-  <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 2 — OpenRocket simulation output (apogee, flight time, and stability validation).</span>
+  <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 2 — OpenRocket simulation output</span>
 </p>
 
 <hr>
@@ -60,11 +60,9 @@ To meet these requirements, we used <strong>OpenRocket</strong> as the main desi
 
 <h4>Results</h4>
 
-<p><strong>Video</strong></p>
-<!-- Replace with your embed or link -->
 <p>
-<video controls style="width: 100%; max-width: 720px; display: block; margin: 0.5rem auto;">
-  <source src="{{ '/img/Rocket/video%20fusee.MOV' | relative_url }}" type="video/quicktime">
+<video controls playsinline preload="metadata" style="width: 100%; max-width: 720px; display: block; margin: 0.5rem auto;">
+  <source src="{{ '/img/Rocket/video%20fusee.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 </p>
@@ -74,9 +72,10 @@ To meet these requirements, we used <strong>OpenRocket</strong> as the main desi
 </ul>
 
 <div class="table-responsive" style="margin: 1rem 0;">
-  <table class="table table-bordered table-sm align-middle" style="background:white;">
-    <caption style="caption-side: bottom; text-align:center; color: #6c757d; padding-top: .5rem;">
-      Table — Analytical predictions (with/without drag) vs. OpenRocket simulation and altimeter measurements.
+  <table class="table table-bordered table-sm align-middle" style="background:white; font-size: 0.85rem;">
+    <caption style="caption-side: bottom; text-align:center; color: #6c757d; padding-top: .5rem; font-size: 0.8rem;">
+      Analytical predictions (with/without drag) vs. OpenRocket simulation and altimeter measurements.<br>
+      \(\displaystyle \tau=\frac{m}{B\,\rho_{air}}\). Rocket mass is assumed constant across all phases.
     </caption>
     <thead style="background:#f8f9fa;">
       <tr>
@@ -218,9 +217,6 @@ To meet these requirements, we used <strong>OpenRocket</strong> as the main desi
     </tbody>
   </table>
 
-  <p style="margin: .25rem 0 0; text-align:center; color:#6c757d; font-size:.9rem;">
-    Assumption: \(\displaystyle \tau=\frac{m}{B\,\rho_{air}}\). Rocket mass is assumed constant across all phases.
-  </p>
 </div>
 
 
@@ -231,7 +227,7 @@ To meet these requirements, we used <strong>OpenRocket</strong> as the main desi
 
 <p align="center">
   <img src="{{ 'img/Rocket/rocket destroy.JPG' | relative_url }}" alt="Post-flight rocket condition" style="max-width: 900px; margin: 1rem auto; display:block;">
-  <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 3 — Post-flight condition (recovery system issue observed after landing).</span>
+  <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">Figure 3 — Post-flight condition (Rapid Unscheduled Disassembly)</span>
 </p>
 
 </div>

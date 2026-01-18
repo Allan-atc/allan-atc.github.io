@@ -200,23 +200,28 @@ To make the STM representative, dummy masses were sized using datasheet componen
   <li>S-band antennas represented by steel masses mounted on external aluminum panels.</li>
 </ul>
 
-<figure class="gc-figure mx-auto" style="max-width: 520px;">
-  <div class="gc-frame gc-h-md d-flex align-items-center">
-    <img src="{{ '/img/CS3/STM%20ouvert%20complet.png' | relative_url }}"
-         alt="STM open — internal stack and structure"
-         class="gc-media" loading="lazy" decoding="async">
+<div class="row g-3 justify-content-center">
+  <div class="col-md-6">
+    <figure class="gc-figure">
+      <div class="gc-frame gc-h-md d-flex align-items-center">
+        <img src="{{ '/img/CS3/STM%20ouvert%20complet.png' | relative_url }}"
+             alt="STM open — internal stack and structure"
+             class="gc-media" loading="lazy" decoding="async">
+      </div>
+      <figcaption style="font-size: 0.9rem; color: gray; text-align: center;">Figure 6 — STM open: internal stack, mass dummies, and flight-like integration</figcaption>
+    </figure>
   </div>
-  <figcaption style="font-size: 0.9rem; color: gray; text-align: center;">Figure 6 — STM open: internal stack, mass dummies, and flight-like integration</figcaption>
-</figure>
-
-<figure class="gc-figure mx-auto" style="max-width: 760px;">
-  <div class="gc-frame gc-h-lg d-flex align-items-center">
-    <img src="{{ '/img/CS3/CAD_Rack_carte.png' | relative_url }}"
-         alt="CAD — card rack stack-up with PC104 spacing logic"
-         class="gc-media" loading="lazy" decoding="async">
+  <div class="col-md-6">
+    <figure class="gc-figure">
+      <div class="gc-frame gc-h-md d-flex align-items-center">
+        <img src="{{ '/img/CS3/CAD_Rack_carte.png' | relative_url }}"
+             alt="CAD — card rack stack-up with PC104 spacing logic"
+             class="gc-media" loading="lazy" decoding="async">
+      </div>
+      <figcaption style="font-size: 0.9rem; color: gray; text-align: center;">Figure 7 — CAD: avionics/card rack stack-up (PC104 spacing + threaded-rod architecture)</figcaption>
+    </figure>
   </div>
-  <figcaption style="font-size: 0.9rem; color: gray; text-align: center;">Figure 7 — CAD: avionics/card rack stack-up (PC104 spacing + threaded-rod architecture)</figcaption>
-</figure>
+</div>
 
 <hr>
 

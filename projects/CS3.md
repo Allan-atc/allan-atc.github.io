@@ -135,7 +135,7 @@ Along with one other student, we formed the Structure & Thermal team. I was prim
 <h4>Technical contribution</h4>
 <h5>Flight CAD architecture</h5>
 <p>
-I first created a full flight-representative CAD baseline of ESUS using real subsystem geometry—some provided by CNES, and some produced internally (by other students for the payload for example) or by me. This CAD was used to:
+I owned the flight-representative ESUS CAD model, built from real subsystem geometries and internal payload models. This CAD was used to:
 </p>
 
 <ul>
@@ -180,7 +180,7 @@ During Phase B, several flight components were not yet physically available—es
 </p>
 
 <p>
-The solution was to use mass dummies.. Even without final hardware, this approach allowed us to validate the mechanical aspects for Phase B:
+The solution was to use mass dummies. Even without final hardware, this approach allowed us to validate the mechanical aspects for Phase B:
 </p>
 
 <ul>

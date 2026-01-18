@@ -110,8 +110,18 @@ h1,
 .tf-project-date {
   white-space: nowrap;
   justify-self: end;
-  font-size: 1rem;
   font-weight: 400;
+}
+
+.tf-project-period {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  column-gap: 0.75rem;
+  align-items: baseline;
+}
+
+.tf-project-period-text {
+  min-width: 0;
 }
 
 @media (max-width: 576px) {

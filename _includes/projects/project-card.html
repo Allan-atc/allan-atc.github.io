@@ -12,25 +12,35 @@
       <div class="card-body py-2 px-3" style="padding-left: 0.75rem;">
         <h5 class="card-title tf-project-title">
           <span class="tf-project-title-text">{{ include.page.title }}</span>
-          {% if include.page.start_date %}
-            {% assign end_raw = include.page.end_date %}
-            {% assign end_raw_down = end_raw | downcase %}
-            <span class="tf-project-date text-muted">
-              {{ include.page.start_date | date: "%B %Y" }}
-              {% if end_raw and end_raw != "" %}
-                –
-                {% if end_raw_down == "present" or end_raw_down == "ongoing" %}
-                  Present
-                {% else %}
-                  {{ include.page.end_date | date: "%B %Y" }}
-                {% endif %}
-              {% endif %}
-            </span>
-          {% endif %}
         </h5>
 
+        {% if include.page.start_date %}
+          {% assign end_raw = include.page.end_date %}
+          {% assign end_raw_down = end_raw | downcase %}
+          {% capture project_date %}
+            {{ include.page.start_date | date: "%B %Y" }}
+            {% if end_raw and end_raw != "" %}
+              –
+              {% if end_raw_down == "present" or end_raw_down == "ongoing" %}
+                Present
+              {% else %}
+                {{ include.page.end_date | date: "%B %Y" }}
+              {% endif %}
+            {% endif %}
+          {% endcapture %}
+        {% endif %}
+
         {% if include.page.period %}
-          <p class="text-muted mb-1"><em>{{ include.page.period }}</em></p>
+          <p class="text-muted mb-1 tf-project-period">
+            <em class="tf-project-period-text">{{ include.page.period }}</em>
+            {% if include.page.start_date %}
+              <span class="tf-project-date">{{ project_date | strip }}</span>
+            {% endif %}
+          </p>
+        {% elsif include.page.start_date %}
+          <p class="text-muted mb-1 tf-project-period">
+            <span class="tf-project-date">{{ project_date | strip }}</span>
+          </p>
         {% endif %}
 
         <p class="card-text">{{ include.page.summary }}</p>

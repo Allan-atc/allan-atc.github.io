@@ -67,9 +67,12 @@ h1,
 
 .tf-project-card-media {
   display: flex;
+  align-items: stretch;
+  overflow: hidden;
 }
 
 .tf-project-card-img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;

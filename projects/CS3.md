@@ -268,6 +268,12 @@ According to iSiPod specifications, the center of gravity must lie within a 20 Ã
 With this STM now representative of the flight configuration, we can proceed with mechanical testing and use the results to support Phase B validation, provided test outcomes meet expectations.
 </p>
 
+<p style="text-align:center;">
+  <button type="button"
+          onclick="const details = this.closest('details'); if (details) { details.removeAttribute('open'); details.scrollIntoView({behavior: 'smooth', block: 'start'}); }">
+    Close section
+  </button>
+</p>
 
 </details>
 
@@ -437,7 +443,7 @@ Random vibration was performed with the VEGA PSD profile (20â€“2000 Hz, 8.85 gRM
 
 <h4>Issues</h4>
 <p>
-Beyond validating global dynamic behavior, the campaign also surfaced an integration weakness early. Two loose nuts were found, originating from the solar panel deployment mechanism. During the Y-axis random vibration test, a measurement artifact was observed and attributed to these nuts. The root cause was insufficient thread engagement: the threaded shaft length had not been updated after the solar generator PCB thickness was changed.
+Beyond validating global dynamic behavior, the campaign also surfaced an early integration weakness: two loose nuts were found. During the Y-axis random vibration test, a measurement artifact was observed and attributed to these nuts. The root cause was insufficient thread engagement: the threaded shaft length had not been updated after the solar generator PCB thickness was changed.
 </p>
 
 <hr>
@@ -457,5 +463,12 @@ I presented these results to CNES and Thales Alenia Space, and the Phase B revie
 </figure>
 
 </div>
+
+<p style="text-align:center;">
+  <button type="button"
+          onclick="const details = this.closest('details'); if (details) { details.removeAttribute('open'); details.scrollIntoView({behavior: 'smooth', block: 'start'}); }">
+    Close section
+  </button>
+</p>
 
 </details>

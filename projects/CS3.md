@@ -80,15 +80,15 @@ period: CentraleSupelec Space Center for CubeSats
 
 
 <p>
-<strong>Program:</strong> CentraleSupélec 3U CubeSat (ESUS)<br>
-<strong>Sponsors / Technical support:</strong> French Space Agency (CNES), Thales Alenia Space<br>
-<strong>Role:</strong> Structure & Thermal team (2 people) — I led structural work; teammate led thermal (tight coordination)
+<strong>Program:</strong> ESUS — CentraleSupelec Space Center for CubeSats<br>
+<strong>Sponsors:</strong> French Space Agency (CNES), Thales Alenia Space<br>
+<strong>Role:</strong> Structural and Thermal Engineer
 </p>
 
-<!-- STM hero (open + closed) -->
-<!-- STM hero (open + closed) -->
 
+<hr>
 
+<h4>Objective</h4>
 <p>
 ESUS is a CentraleSupelec 3U CubeSat scheduled for launch in 2027, developed end-to-end by a team of ~30 engineering students and 5 faculty advisors, with sponsorship and technical support from the French Space Agency and Thales Alenia Space. The mission carries two payloads:
 </p>
@@ -128,7 +128,7 @@ Along with one other student, we formed the Structure & Thermal team. I was prim
 
 <details style="margin-top:1rem;">
   <summary class="gc-toggle">
-    <span><span class="gc-toggle-arrow">▸</span> Part 1 - CAD</span>
+    <span><span class="gc-toggle-arrow">▸</span> Part 1 - Mechanical Design and Build</span>
     <span style="font-weight:400; font-size:0.9rem; color:#6c757d;">Read more</span>
   </summary>
 <h4>STM requirements</h4>
@@ -280,7 +280,7 @@ With this STM now representative of the flight configuration, we can proceed wit
 
 <details style="margin-top:1rem;">
   <summary class="gc-toggle">
-    <span><span class="gc-toggle-arrow">▸</span> Part 2 - mechanical</span>
+    <span><span class="gc-toggle-arrow">▸</span> Part 2 - Mechanical Qualification Testing</span>
     <span style="font-weight:400; font-size:0.9rem; color:#6c757d;">Read more</span>
   </summary>
 <h3>Project Part 2 — ESUS 3U CubeSat</h3>

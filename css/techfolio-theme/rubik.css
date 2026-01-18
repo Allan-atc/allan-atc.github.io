@@ -116,6 +116,7 @@ h1,
 .tf-project-date {
   white-space: nowrap;
   justify-self: end;
+  font-size: 1rem;
   font-weight: 400;
 }
 

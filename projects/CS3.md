@@ -63,10 +63,10 @@ period: CentraleSupélec Space Center for CubeSats
   <div class="col-md-6">
     <figure class="gc-figure">
       <div class="gc-frame gc-h-md d-flex align-items-center">
-        <img src="{{ '/img/CS3/ESUS_STM1.jpg' | relative_url }}" alt="ESUS STM — open configuration"
+        <img src="{{ '/img/CS3/ESUS1.png' | relative_url }}" alt="ESUS STM — open configuration"
              class="gc-media" loading="lazy" decoding="async">
       </div>
-      <figcaption class="gc-caption">Figure 1 — ESUS STM (open configuration).</figcaption>
+      <figcaption style="font-size: 0.9rem; color: gray; text-align: center;">Figure 1 — ESUS STM (open configuration).</figcaption>
     </figure>
   </div>
 
@@ -76,7 +76,7 @@ period: CentraleSupélec Space Center for CubeSats
         <img src="{{ '/img/CS3/ESUS_STM2.png' | relative_url }}" alt="ESUS STM — closed configuration"
              class="gc-media" loading="lazy" decoding="async">
       </div>
-      <figcaption class="gc-caption">Figure 2 — ESUS STM (closed configuration).</figcaption>
+      <figcaption style="font-size: 0.9rem; color: gray; text-align: center;">Figure 2 — ESUS STM (closed configuration).</figcaption>
     </figure>
   </div>
 </div>
@@ -133,7 +133,7 @@ I first created a full flight-representative CAD baseline of ESUS using real sub
         <img src="{{ '/img/CS3/CAD_STM%20COMPLET%20OUVERT.jpg' | relative_url }}" alt="Flight CAD — full mechanical assembly"
              class="gc-media" loading="lazy" decoding="async">
       </div>
-      <figcaption class="gc-caption">Figure 3 — Flight CAD: full mechanical assembly (open view).</figcaption>
+      <figcaption style="font-size: 0.9rem; color: gray; text-align: center;">Figure 3 — ESUS CAD: full mechanical assembly (open view)</figcaption>
     </figure>
   </div>
 
@@ -143,7 +143,7 @@ I first created a full flight-representative CAD baseline of ESUS using real sub
         <img src="{{ '/img/CS3/CAD_ferme%20panneau%20solaire.jpg' | relative_url }}" alt="Flight CAD — external panels and solar panel layout"
              class="gc-media" loading="lazy" decoding="async">
       </div>
-      <figcaption class="gc-caption">Figure 4 — Flight CAD: external panels and solar panel layout (interface-driven geometry).</figcaption>
+      <figcaption style="font-size: 0.9rem; color: gray; text-align: center;">Figure 4 — ESUS CAD: external panels and solar panel layout</figcaption>
     </figure>
   </div>
 </div>
@@ -170,36 +170,21 @@ I used mass dummies as an engineering solution. Even without final hardware, thi
 To make the STM representative, dummy masses were sized using datasheet component masses. Their placement followed the real component layout on PCBs, and shapes were sometimes tuned (plates, blocks, butterfly geometries) to better reproduce inertia behavior rather than only matching total mass. This required that I manufactured aluminum or steel parts depending on the required density, using CentraleSupelec’s fabrication laboratory, including:
 </p>
 
-<figure class="gc-figure gc-float float-md-end ms-md-3 mb-2">
+<ul>
+  <li>waterjet cutting,</li>
+  <li>laser cutting (CO<sub>2</sub> and fiber),</li>
+  <li>3D printing (filament and resin) for smaller parts.</li>
+</ul>
+
+<figure class="gc-figure mx-auto" style="max-width: 520px;">
   <div class="gc-frame gc-h-sm d-flex align-items-center">
     <img src="{{ '/img/CS3/Ninao%20de%20CNES%20(forme%20papillions).png' | relative_url }}"
          alt="Example mass dummy tuned for inertia: butterfly-shaped geometry"
          class="gc-media" loading="lazy" decoding="async">
   </div>
-  <figcaption class="gc-caption">Figure 5 — Example mass dummy (butterfly geometry) tuned to better match inertia behavior.</figcaption>
+  <figcaption style="font-size: 0.9rem; color: gray; text-align: center;">Figure 5 — Example component modeled with a butterfly-shaped geometry</figcaption>
 </figure>
 
-<div class="row g-3 align-items-start">
-  <div class="col-12">
-    <ul>
-      <li>waterjet cutting,</li>
-      <li>laser cutting (CO<sub>2</sub> and fiber),</li>
-      <li>3D printing (filament and resin) for smaller parts.</li>
-    </ul>
-  </div>
-</div>
-
-<div class="clearfix"></div>
-
-
-<figure class="gc-figure mx-auto" style="max-width: 760px;">
-  <div class="gc-frame gc-h-lg d-flex align-items-center">
-    <img src="{{ '/img/CS3/CAD_Rack_carte.png' | relative_url }}"
-         alt="CAD — card rack stack-up with PC104 spacing logic"
-         class="gc-media" loading="lazy" decoding="async">
-  </div>
-  <figcaption class="gc-caption">Figure 6 — CAD: avionics/card rack stack-up (PC104 spacing + threaded-rod architecture).</figcaption>
-</figure>
 
 <hr>
 
@@ -207,16 +192,6 @@ To make the STM representative, dummy masses were sized using datasheet componen
 <p>The STM reproduces the CubeSat partitioning of the flight design:</p>
 
 <!-- STM internal views -->
-<<!-- STM internal views -->
-<figure class="gc-figure gc-float float-md-end ms-md-3 mb-2">
-  <div class="gc-frame gc-h-md d-flex align-items-center">
-    <img src="{{ '/img/CS3/STM%20ouvert%20complet.png' | relative_url }}"
-         alt="STM open — internal stack and structure"
-         class="gc-media" loading="lazy" decoding="async">
-  </div>
-  <figcaption class="gc-caption">Figure 7 — STM open: internal stack, mass dummies, and flight-like integration.</figcaption>
-</figure>
-
 <ul>
   <li>a primary structure (4 aluminum rails and 4 aluminum frames),</li>
   <li>a card rack represented by steel/aluminum mass dummies mounted on PCB cards (stacked using M3 threaded rods with PC104 spacing logic),</li>
@@ -225,16 +200,22 @@ To make the STM representative, dummy masses were sized using datasheet componen
   <li>S-band antennas represented by steel masses mounted on external aluminum panels.</li>
 </ul>
 
-<div class="clearfix"></div>
-
-
-<figure class="gc-figure mx-auto" style="max-width: 900px;">
-  <div class="gc-frame gc-h-banner d-flex align-items-center">
-    <img src="{{ '/img/CS3/RAck%20Carte%20profil%20.png' | relative_url }}"
-         alt="STM rack — profile view showing stack-up"
+<figure class="gc-figure mx-auto" style="max-width: 520px;">
+  <div class="gc-frame gc-h-md d-flex align-items-center">
+    <img src="{{ '/img/CS3/STM%20ouvert%20complet.png' | relative_url }}"
+         alt="STM open — internal stack and structure"
          class="gc-media" loading="lazy" decoding="async">
   </div>
-  <figcaption class="gc-caption">Figure 8 — Rack profile view: card spacing, interfaces, and stack-up coherence.</figcaption>
+  <figcaption style="font-size: 0.9rem; color: gray; text-align: center;">Figure 6 — STM open: internal stack, mass dummies, and flight-like integration</figcaption>
+</figure>
+
+<figure class="gc-figure mx-auto" style="max-width: 760px;">
+  <div class="gc-frame gc-h-lg d-flex align-items-center">
+    <img src="{{ '/img/CS3/CAD_Rack_carte.png' | relative_url }}"
+         alt="CAD — card rack stack-up with PC104 spacing logic"
+         class="gc-media" loading="lazy" decoding="async">
+  </div>
+  <figcaption style="font-size: 0.9rem; color: gray; text-align: center;">Figure 7 — CAD: avionics/card rack stack-up (PC104 spacing + threaded-rod architecture)</figcaption>
 </figure>
 
 <hr>

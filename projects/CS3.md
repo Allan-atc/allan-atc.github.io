@@ -68,7 +68,6 @@ period: CentraleSupélec Space Center for CubeSats
 <!-- STM hero (open + closed) -->
 
 
-<h4>Objective</h4>
 <p>
 ESUS is a CentraleSupelec 3U CubeSat scheduled for launch in 2027, developed end-to-end by a team of ~30 engineering students and 5 faculty advisors, with sponsorship and technical support from the French Space Agency and Thales Alenia Space. The mission carries two payloads:
 </p>
@@ -106,8 +105,8 @@ Along with one other student, we formed the Structure & Thermal team. I was prim
 
 <hr>
 
-<details open style="margin-top:1rem;">
-  <summary>Part 1 — CAD + STM Definition</summary>
+<details style="margin-top:1rem;">
+  <summary style="display:block; font-weight:700; font-size:1.15rem; background:#f8f9fa; border:1px solid rgba(0,0,0,.08); border-radius:12px; padding:.5rem .75rem; cursor:pointer; margin-bottom:1rem;">Part 1 - CAD</summary>
 <h4>STM requirements</h4>
 <ul>
   <li><strong>Form factor:</strong> compliant with a 3U envelope (340.5 × 100 × 100 mm) and compatible with P-POD-class interfaces via the ISIS iSiPod deployer.</li>
@@ -252,12 +251,11 @@ According to iSiPod specifications, the center of gravity must lie within a 20 �
 With this STM now representative of the flight configuration, we can proceed with mechanical testing and use the results to support Phase B validation, provided test outcomes meet expectations.
 </p>
 
-</div>
 
 </details>
 
-<details open style="margin-top:1rem;">
-  <summary>Part 2 — Mechanical Qualification Tests</summary>
+<details style="margin-top:1rem;">
+  <summary style="display:block; font-weight:700; font-size:1.15rem; background:#f8f9fa; border:1px solid rgba(0,0,0,.08); border-radius:12px; padding:.5rem .75rem; cursor:pointer; margin-bottom:1rem;">Part 2 - mechanical</summary>
 <h3>Project Part 2 — ESUS 3U CubeSat</h3>
 <div class="gc-part2">
 <h4>STM Mechanical Qualification Campaign and Vibration Test Results</h4>

@@ -357,7 +357,7 @@ This meets the requirement of a first mode &gt; 100 Hz with a safety factor of 2
          alt="Amplitude response of the structure accelerometer (X-axis): first vs last resonance survey"
          class="gc-media" loading="lazy" decoding="async">
   </div>
-  <figcaption class="gc-caption">Figure 8 — Comparison of resonance surveys along the X-axis for the accelerometer mounted at the satellite center</figcaption>
+  <figcaption class="gc-caption">Figure 10 — Comparison of resonance surveys along the X-axis for the accelerometer mounted at the satellite center</figcaption>
 </figure>
 
 <hr>
@@ -415,7 +415,7 @@ This is consistent with the STM having no structural natural frequency within 5�
              alt="Structure accelerometer response during sinusoidal vibration (X-axis)"
              class="gc-media" loading="lazy" decoding="async">
       </div>
-      <figcaption class="gc-caption">Figure 9 — Structure accelerometer response during sinusoidal vibration (X-axis)</figcaption>
+      <figcaption class="gc-caption">Figure 11 — Structure accelerometer response during sinusoidal vibration (X-axis)</figcaption>
     </figure>
   </div>
 </div>
@@ -446,7 +446,7 @@ I presented these results to CNES and Thales Alenia Space, and the Phase B revie
          alt="ESUS team photo"
          class="gc-media" loading="lazy" decoding="async">
   </div>
-  <figcaption class="gc-caption">Figure 10 - ESUS team in Toulouse, France, after Phase B validation</figcaption>
+  <figcaption class="gc-caption">Figure 11 - ESUS team in Toulouse, France, after Phase B validation</figcaption>
 </figure>
 
 </div>

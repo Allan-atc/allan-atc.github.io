@@ -48,7 +48,7 @@ period: CentraleSupelec Space Center for CubeSats
     justify-content:space-between;
     gap:0.75rem;
     font-weight:700;
-    font-size:1.15rem;
+    font-size:1.5rem;
     background:#f8f9fa;
     border:1px solid rgba(0,0,0,.08);
     border-radius:12px;
@@ -328,18 +328,16 @@ I owned the end-to-end engineering work for the STM vibration qualification acti
 I used a structured integrity-check process: run a resonance survey before and after each environment to detect any mechanical change. Because the launcher had not been selected yet, I used the Arianespace VEGA vibration requirements as the reference case (most restrictive at the time).
 </p>
 
-<p>Resonance survey</p>
-<ul>
-  <li>Input: 0.5 g, 5–2000 Hz, sweep rate 2 oct/min.</li>
-</ul>
 
-<p>Acceptance logic<br>
-The resonance survey excites the CubeSat across a wide band to reveal its modes. I performed it before testing and after each test, enabling direct comparison of resonance frequencies and amplitudes. A significant change indicates internal failure or a mechanical-property change (loosening, damage, interface shift).
+<p> The resonance survey excites the CubeSat across a wide band to reveal its modes. I performed it before testing and after each test, enabling direct comparison of resonance frequencies and amplitudes. A significant change indicates internal failure or a mechanical-property change (loosening, damage, interface shift).
 </p>
 
+<p>Resonance survey</p>
 <ul>
-  <li>Success criterion: frequency shift &lt; 5% and amplitude shift &lt; 10% on the reference spectrum, over the comparison band (5 Hz to 120 Hz if the first mode is &lt;120 Hz, otherwise 5 Hz to the first mode).</li>
+  <li>Input: 0.5 g, 5–2000 Hz, sweep rate 2 oct/min</li>
+  <li>Success criterion: frequency shift &lt; 5% and amplitude shift &lt; 10% relative to the reference spectrum, evaluated over 5–120 Hz if the first mode is &lt; 120 Hz, otherwise 5 Hz up to the first mode</li>
 </ul>
+
 
 <p>Vibration environments</p>
 <ul>

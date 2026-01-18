@@ -1,6 +1,8 @@
 <div class="card mb-3">
   <div class="tf-project-card">
-    <div class="tf-project-card-media rounded-start" style="background-image: url('{{ include.page.image | relative_url }}');"></div>
+    <div class="tf-project-card-media">
+      <img src="{{ include.page.image | relative_url }}" alt="{{ include.page.title }} preview" class="rounded-start tf-project-card-img" loading="lazy" decoding="async">
+    </div>
     <div class="tf-project-card-body">
       <div class="card-body py-2 px-3" style="padding-left: 0.75rem;">
         <h5 class="card-title">

@@ -24,7 +24,7 @@ period: NASA Space Technology Graduate Research — Stanford University
 
 <h4>Project Overview</h4>
 <p>
-High-power electric propulsion, including Nuclear Electric Propulsion (NEP), is a promising technology for future crewed and cargo missions to Mars. For high-power spacecraft, the self-field Magnetoplasmadynamic (MPD) configuration is especially attractive because it delivers strong performance.
+High-power electric propulsion, including Nuclear Electric Propulsion (NEP), is a promising technology for future missions to Mars. For high-power spacecraft, the self-field Magnetoplasmadynamic (MPD) configuration is especially attractive because it delivers strong performance.
 </p>
 
 <p>

@@ -17,7 +17,7 @@ period: CentraleSupelec Space Center for CubeSats
   /* --- ESUS image system --- */
   .gc-figure { margin: 1rem 0; }
   .gc-frame{
-    background:#f8f9fa;
+    background:#C4C8D1;
     border:1px solid rgba(0,0,0,.08);
     border-radius:14px;
     padding:.5rem;

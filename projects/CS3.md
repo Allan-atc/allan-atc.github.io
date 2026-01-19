@@ -49,7 +49,7 @@ period: CentraleSupelec Space Center for CubeSats
     gap:0.75rem;
     font-weight:700;
     font-size:1.5rem;
-    background:#C4C8D1;
+    background:#f8f9fa;
     border:1px solid rgba(0,0,0,.08);
     border-radius:12px;
     padding:.5rem .75rem;
@@ -63,7 +63,7 @@ period: CentraleSupelec Space Center for CubeSats
     gap:0.75rem;
     font-weight:700;
     font-size:1.15rem;
-    background:#C4C8D1;
+    background:#f8f9fa;
     border:1px solid rgba(0,0,0,.08);
     border-radius:12px;
     padding:.5rem .75rem;
@@ -79,6 +79,12 @@ period: CentraleSupelec Space Center for CubeSats
   }
   details[open] .gc-toggle-arrow{
     transform:rotate(90deg);
+  }
+  .gc-frame-clear{
+    background-color: transparent !important;
+    border: 0;
+    box-shadow: none;
+    padding: 0;
   }
 
   /* Controlled sizes */
@@ -122,7 +128,7 @@ Along with one other student, we formed the Structure & Thermal team. I was prim
 <div class="row g-3 justify-content-center">
   <div class="col-md-6">
     <figure class="gc-figure">
-      <div class="gc-frame gc-h-md d-flex align-items-center">
+      <div class="gc-frame gc-frame-clear gc-h-md d-flex align-items-center">
         <img src="{{ '/img/CS3/ESUS_STM1.png' | relative_url }}" alt="ESUS STM — open configuration"
              class="gc-media" loading="lazy" decoding="async">
       </div>
@@ -132,7 +138,7 @@ Along with one other student, we formed the Structure & Thermal team. I was prim
 
   <div class="col-md-6">
     <figure class="gc-figure">
-      <div class="gc-frame gc-h-md d-flex align-items-center">
+      <div class="gc-frame gc-frame-clear gc-h-md d-flex align-items-center">
         <img src="{{ '/img/CS3/ESUS_STM2.png' | relative_url }}" alt="ESUS STM — closed configuration"
              class="gc-media" loading="lazy" decoding="async">
       </div>

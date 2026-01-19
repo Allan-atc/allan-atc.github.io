@@ -45,7 +45,7 @@ By retaining non-equilibrium thermodynamics and ionization dynamics, the formula
 
 <h5>Linear stability model</h5>
 <p>
-I implemented a two-fluid, 1D formulation derived for the near-anode region, where instabilities are most critical. In this framework, electrons and heavy species are treated with separate energy balances, enabling non-equilibrium between electron temperature and gas temperature. The model explicitly includes ionization and recombination kinetics, ambipolar diffusion, Ohmic heating with Spitzer conductivity, viscous dissipation, and electron–heavy species energy exchange.
+I implemented a two-fluid, 0D linear stability model for the near-anode region, where instabilities are most critical. In this framework, electrons and heavy species are treated with separate energy balances, enabling non-equilibrium between electron temperature and gas temperature. The model explicitly includes ionization and recombination kinetics, ambipolar diffusion, Ohmic heating with Spitzer conductivity, viscous dissipation, and electron–heavy species energy exchange.
 </p>
 
 <p>

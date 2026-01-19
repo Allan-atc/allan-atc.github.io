@@ -151,7 +151,7 @@ To meet these requirements, we used OpenRocket as the main design tool and follo
 
 
 <ul>
-  <li>**What failed and why:** The deployment sequence did not perform as intended because both igniters were powered by the same battery. After the first firing event, the battery likely experienced voltage sag under load and could no longer deliver sufficient peak current to heat the ignition wire quickly enough to initiate the parachute ejection charge. This issue affected roughly half of the teams, as the battery type was imposed and not under our control.</li>
+  <li>What failed and why: The deployment sequence did not perform as intended because both igniters were powered by the same battery. After the first firing event, the battery likely experienced voltage sag under load and could no longer deliver sufficient peak current to heat the ignition wire quickly enough to initiate the parachute ejection charge. This issue affected roughly half of the teams, as the battery type was imposed and not under our control.</li>
   <li>Conclusion: Despite the recovery issue, the propulsion and ballistic predictions were highly accurate, confirming that the simulation-driven sizing approach was robust and that the main limitation was the deployment power margin rather than the aerodynamic design.</li>
 </ul>
 

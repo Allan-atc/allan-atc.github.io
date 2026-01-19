@@ -115,11 +115,6 @@ To meet these requirements, we used OpenRocket as the main design tool and follo
         <td>72.1 m·s<sup>−1</sup></td>
       </tr>
 
-      <tr>
-        <td>Ballistic-phase velocity components</td>
-        <td>—</td>
-        <td>—</td>
-      </tr>
 
       <tr>
         <td>Speed at parachute deployment</td>

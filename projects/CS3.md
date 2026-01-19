@@ -319,6 +319,15 @@ I owned the end-to-end engineering work for the STM vibration qualification acti
   <li>Performed integrity assessment using pre-/post-resonance surveys and response analysis to identify any mechanical change.</li>
 </ul>
 
+<figure class="gc-figure mx-auto" style="max-width: 780px;">
+  <div class="gc-frame gc-h-md d-flex align-items-center">
+    <img src="{{ 'img/CS3/PIT Allan.JPG' | relative_url }}"
+         alt="ESUS team photo"
+         class="gc-media" loading="lazy" decoding="async">
+  </div>
+  <figcaption class="gc-caption">Figure 8 - Installing the STM on the vibration shaker table</figcaption>
+</figure>
+
 <h5>Test setup and instrumentation</h5>
 <ul>
   <li>Reference frame and axes: testing was performed along the CubeSat axes X, Y, Z.</li>
@@ -335,7 +344,7 @@ I owned the end-to-end engineering work for the STM vibration qualification acti
              alt="STM open — internal stack and structure"
              class="gc-media" loading="lazy" decoding="async">
       </div>
-      <figcaption style="font-size: 0.9rem; color: gray; text-align: center;">Figure 8 — ESUS inside the deployer, mounted on the shaker table in the test configuration</figcaption>
+      <figcaption style="font-size: 0.9rem; color: gray; text-align: center;">Figure 9 — ESUS inside the deployer, mounted on the shaker table in the test configuration</figcaption>
     </figure>
   </div>
   <div class="col-md-6">
@@ -345,7 +354,7 @@ I owned the end-to-end engineering work for the STM vibration qualification acti
              alt="CAD — card rack stack-up with PC104 spacing logic"
              class="gc-media" loading="lazy" decoding="async">
       </div>
-      <figcaption style="font-size: 0.9rem; color: gray; text-align: center;">Figure 9 — Accelerometer placement on ESUS for vibration testing</figcaption>
+      <figcaption style="font-size: 0.9rem; color: gray; text-align: center;">Figure 10 — Accelerometer placement on ESUS for vibration testing</figcaption>
     </figure>
   </div>
 </div>
@@ -398,7 +407,7 @@ This meets the requirement of a first mode &gt; 100 Hz with a safety factor of 2
          alt="Amplitude response of the structure accelerometer (X-axis): first vs last resonance survey"
          class="gc-media" loading="lazy" decoding="async">
   </div>
-  <figcaption class="gc-caption">Figure 10 — Comparison of resonance surveys along the X-axis for the accelerometer mounted at the satellite center</figcaption>
+  <figcaption class="gc-caption">Figure 11 — Comparison of resonance surveys along the X-axis for the accelerometer mounted at the satellite center</figcaption>
 </figure>
 
 <h5>Quasi-static load performance</h5>
@@ -452,7 +461,7 @@ This is consistent with the STM having no structural natural frequency within 5�
              alt="Structure accelerometer response during sinusoidal vibration (X-axis)"
              class="gc-media" loading="lazy" decoding="async">
       </div>
-      <figcaption class="gc-caption">Figure 11 — Structure accelerometer response during sinusoidal vibration (X-axis)</figcaption>
+      <figcaption class="gc-caption">Figure 12 — Structure accelerometer response during sinusoidal vibration (X-axis)</figcaption>
     </figure>
   </div>
 </div>
@@ -481,7 +490,7 @@ I presented these results to CNES and Thales Alenia Space, and the Phase B revie
          alt="ESUS team photo"
          class="gc-media" loading="lazy" decoding="async">
   </div>
-  <figcaption class="gc-caption">Figure 11 - ESUS team in Toulouse, France, after Phase B validation</figcaption>
+  <figcaption class="gc-caption">Figure 13 - ESUS team in Toulouse, France, after Phase B validation</figcaption>
 </figure>
 
 </div>

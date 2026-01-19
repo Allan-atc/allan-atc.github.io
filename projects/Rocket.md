@@ -21,10 +21,10 @@ In my senior year of high school, I participated in a rocket-design competition 
 </p>
 
 <ul>
-  <li>Apogee: 200 m</li>
-  <li>Rocket length: &gt; 1 m</li>
-  <li>Flight time: 40–43 s</li>
-  <li>Impact speed: &lt; 5 m/s</li>
+  <li>Apogee at 200 m</li>
+  <li>Rocket length greater than 1 m</li>
+  <li>Flight time between 40 s and 43 s</li>
+  <li>Impact speed around 5 m/s</li>
   <li>Payload recovery: return an onboard egg intact using only everyday, off-the-shelf materials</li>
 </ul>
 

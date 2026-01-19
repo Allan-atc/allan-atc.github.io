@@ -74,16 +74,11 @@ To meet these requirements, we used OpenRocket as the main design tool and follo
 <div class="table-responsive" style="margin: 1rem 0;">
   <table class="table table-bordered table-sm align-middle" style="background:white; font-size: 0.85rem;">
     <caption style="caption-side: bottom; text-align:center; color: #6c757d; padding-top: .5rem; font-size: 0.8rem;">
-      Analytical predictions (with/without drag) vs. OpenRocket simulation and altimeter measurements.<br>
-      \(\displaystyle \tau=\frac{m}{B\,\rho_{air}}\). Rocket mass is assumed constant across all phases.
+      OpenRocket Simulation vs. Altimeter Measurements.
     </caption>
     <thead style="background:#f8f9fa;">
       <tr>
         <th style="min-width: 220px;">Metric</th>
-        <th style="min-width: 360px;">Analytical model (1) — no drag</th>
-        <th style="min-width: 420px;">Analytical model (2) — with drag</th>
-        <th style="min-width: 120px;">Value (1)</th>
-        <th style="min-width: 120px;">Value (2)</th>
         <th style="min-width: 140px;">OpenRocket</th>
         <th style="min-width: 140px;">Altimeter</th>
       </tr>
@@ -92,125 +87,60 @@ To meet these requirements, we used OpenRocket as the main design tool and follo
     <tbody>
       <tr>
         <td>Time to trajectory apex</td>
-        <td>\(\displaystyle t_{max}=t_{op}+\frac{v_{op}\cos(\alpha)}{g}\)</td>
-        <td>\(\displaystyle t_{max}=t_{op}+\tau\,\ln\!\left(1+\frac{v_{op}\cos(\alpha)}{g\,\tau}\right)\)</td>
-        <td>9.68 s</td>
-        <td>9.69 s</td>
         <td>7.68 s</td>
         <td>7.76 s</td>
       </tr>
 
       <tr>
         <td>Maximum altitude reached</td>
-        <td>\(\displaystyle y_{max}=-\frac{v_{op}^{2}}{2g}+y_{op}\)</td>
-        <td>\(\displaystyle
-          y_{max}=
-          -\tau\,(v_{op}\cos\alpha+\tau g)\left(-1+e^{-\frac{t_{max}-t_{op}}{\tau}}\right)
-          -g\tau\,(t_{max}-t_{op})
-          +y_{op}
-        \)</td>
-        <td>358.1 m</td>
-        <td>357.6 m</td>
         <td>251.8 m</td>
         <td>248 m</td>
       </tr>
 
       <tr>
-        <td>Horizontal range if the parachute does not deploy</td>
-        <td>\(\displaystyle O_x=v_{0}\sin(\alpha)\,(t-t_{0})\)</td>
-        <td>\(\displaystyle O_x=v_{0}\sin(\alpha)\,\tau\left(1-e^{-\frac{t_{max}-t_{op}}{\tau}}\right)\)</td>
-        <td>97.4 m</td>
-        <td>97.4 m</td>
-        <td>110 m</td>
-        <td>47 m</td>
-      </tr>
-
-      <tr>
         <td>Liftoff acceleration</td>
-        <td>\(\displaystyle a=-g+\frac{F}{m}\)</td>
-        <td>\(\displaystyle a=-g+\frac{F}{m}\)</td>
-        <td>34.3 m·s<sup>−2</sup></td>
-        <td>34.3 m·s<sup>−2</sup></td>
         <td>36.6 m·s<sup>−2</sup></td>
         <td>—</td>
       </tr>
 
       <tr>
         <td>Propulsion phase duration</td>
-        <td>\(\displaystyle t_{op}\)</td>
-        <td>\(\displaystyle t_{op}\)</td>
-        <td>2.18 s</td>
-        <td>2.18 s</td>
         <td>2.18 s</td>
         <td>—</td>
       </tr>
 
       <tr>
         <td>Velocity at the end of propulsion</td>
-        <td>\(\displaystyle v_{op}=\left(-g+\frac{F}{m}\right)\,t_{op}\)</td>
-        <td>\(\displaystyle v_{op}=\left(-g+\frac{F}{m}\right)\tau\left(1-e^{-\frac{t_{op}}{\tau}}\right)\)</td>
-        <td>74.8 m·s<sup>−1</sup></td>
-        <td>74.8 m·s<sup>−1</sup></td>
         <td>66.2 m·s<sup>−1</sup></td>
         <td>72.1 m·s<sup>−1</sup></td>
       </tr>
 
       <tr>
         <td>Ballistic-phase velocity components</td>
-        <td>\(\displaystyle
-          \begin{cases}
-          v_y=v_{op}\cos(\alpha)-gt\\
-          v_x=v_{op}\sin(\alpha)
-          \end{cases}
-        \)</td>
-        <td>\(\displaystyle
-          \begin{cases}
-          v_y=(v_{op}\cos(\alpha)+\tau g)\,e^{-\frac{t}{\tau}}-\tau g\\
-          v_x=v_{op}\sin(\alpha)\,e^{-\frac{t}{\tau}}
-          \end{cases}
-        \)</td>
-        <td>—</td>
-        <td>—</td>
         <td>—</td>
         <td>—</td>
       </tr>
 
       <tr>
         <td>Speed at parachute deployment</td>
-        <td>\(\displaystyle v_{pa}=\sqrt{v_y^2(7s)+v_x^2(7s)}\)</td>
-        <td>\(\displaystyle v_{pa}=\sqrt{v_y^2(7s)+v_x^2(7s)}\)</td>
-        <td>13.91 m·s<sup>−1</sup></td>
-        <td>13.86 m·s<sup>−1</sup></td>
         <td>5.5 m·s<sup>−1</sup></td>
         <td>12.4 m·s<sup>−1</sup></td>
       </tr>
 
       <tr>
         <td>Impact speed at ground</td>
-        <td>\(\displaystyle v_{imp}=\sqrt{\frac{mg}{B\,\rho_{air}}}\)</td>
-        <td>—</td>
-        <td>5.82 m·s<sup>−1</sup></td>
-        <td>—</td>
         <td>5.56 m·s<sup>−1</sup></td>
         <td>7.2 m·s<sup>−1</sup></td>
       </tr>
 
       <tr>
         <td>Total flight time</td>
-        <td>—</td>
-        <td>—</td>
-        <td>—</td>
-        <td>—</td>
         <td>53.5 s</td>
         <td>41.0 s</td>
       </tr>
 
       <tr>
         <td>Altitude at end of propulsion</td>
-        <td>\(\displaystyle y_{op}=\frac{1}{2}\left(\frac{F}{m}-g\right)\,t_{op}^{2}\)</td>
-        <td>\(\displaystyle y_{op}=\left(\frac{F}{m}-g\right)\tau\left[t_{op}-\tau\left(1-e^{-\frac{t_{op}}{\tau}}\right)\right]\)</td>
-        <td>81.5 m</td>
-        <td>81.6 m</td>
         <td>96.2 m</td>
         <td>—</td>
       </tr>
@@ -221,7 +151,7 @@ To meet these requirements, we used OpenRocket as the main design tool and follo
 
 
 <ul>
-  <li>What failed and why: The deployment sequence did not perform as intended because the same battery powered both igniters. After the first ignition, the remaining current was not sufficient to heat the copper wire fast enough to trigger the parachute charge. This issue affected roughly half of the teams, since the battery choice was imposed and not under our control.</li>
+  <li>**What failed and why:** The deployment sequence did not perform as intended because both igniters were powered by the same battery. After the first firing event, the battery likely experienced voltage sag under load and could no longer deliver sufficient peak current to heat the ignition wire quickly enough to initiate the parachute ejection charge. This issue affected roughly half of the teams, as the battery type was imposed and not under our control.</li>
   <li>Conclusion: Despite the recovery issue, the propulsion and ballistic predictions were highly accurate, confirming that the simulation-driven sizing approach was robust and that the main limitation was the deployment power margin rather than the aerodynamic design.</li>
 </ul>
 

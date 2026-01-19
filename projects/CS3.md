@@ -49,7 +49,7 @@ period: CentraleSupelec Space Center for CubeSats
     gap:0.75rem;
     font-weight:700;
     font-size:1.5rem;
-    background:#f8f9fa;
+    background:#C4C8D1;
     border:1px solid rgba(0,0,0,.08);
     border-radius:12px;
     padding:.5rem .75rem;
@@ -63,7 +63,7 @@ period: CentraleSupelec Space Center for CubeSats
     gap:0.75rem;
     font-weight:700;
     font-size:1.15rem;
-    background:#f8f9fa;
+    background:#C4C8D1;
     border:1px solid rgba(0,0,0,.08);
     border-radius:12px;
     padding:.5rem .75rem;
@@ -177,7 +177,7 @@ I owned the flight-representative ESUS CAD model, built from real subsystem geom
   <div class="col-md-6">
     <figure class="gc-figure">
       <div class="gc-frame gc-h-md d-flex align-items-center">
-        <img src="{{ '/img/CS3/CAD_ferme%20panneau%20solaire.jpg' | relative_url }}" alt="Flight CAD — external panels and solar panel layout"
+        <img src="{{ '/img/CS3/CAD_ferme%20panneau%20solaire.jpeg' | relative_url }}" alt="Flight CAD — external panels and solar panel layout"
              class="gc-media" loading="lazy" decoding="async">
       </div>
       <figcaption style="font-size: 0.9rem; color: gray; text-align: center;">Figure 4 — ESUS CAD: external panels and solar panel layout</figcaption>

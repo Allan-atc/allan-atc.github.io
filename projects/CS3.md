@@ -132,7 +132,7 @@ Along with one other student, we formed the Structure & Thermal team. I was prim
         <img src="{{ '/img/CS3/ESUS_STM1.png' | relative_url }}" alt="ESUS STM — open configuration"
              class="gc-media" loading="lazy" decoding="async">
       </div>
-      <figcaption style="font-size: 0.9rem; color: gray; text-align: center;">Figure 1 — ESUS STM (open configuration).</figcaption>
+      <figcaption style="font-size: 0.9rem; color: gray; text-align: center;">Figure 1 — ESUS STM (open)</figcaption>
     </figure>
   </div>
 
@@ -142,7 +142,7 @@ Along with one other student, we formed the Structure & Thermal team. I was prim
         <img src="{{ '/img/CS3/ESUS_STM2.png' | relative_url }}" alt="ESUS STM — closed configuration"
              class="gc-media" loading="lazy" decoding="async">
       </div>
-      <figcaption style="font-size: 0.9rem; color: gray; text-align: center;">Figure 2 — ESUS STM (closed configuration).</figcaption>
+      <figcaption style="font-size: 0.9rem; color: gray; text-align: center;">Figure 2 — ESUS STM</figcaption>
     </figure>
   </div>
 </div>
@@ -263,7 +263,7 @@ To make the STM representative, dummy masses were sized using datasheet componen
              alt="CAD — card rack stack-up with PC104 spacing logic"
              class="gc-media" loading="lazy" decoding="async">
       </div>
-      <figcaption style="font-size: 0.9rem; color: gray; text-align: center;">Figure 7 — CAD: avionics/card rack stack-up (PC104 spacing + threaded-rod architecture)</figcaption>
+      <figcaption style="font-size: 0.9rem; color: gray; text-align: center;">Figure 7 — CAD: card rack stack-up (PC104 spacing + threaded-rod architecture)</figcaption>
     </figure>
   </div>
 </div>

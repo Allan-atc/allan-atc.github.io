@@ -97,7 +97,7 @@ I then coupled the 1D solver to the 0D stability model: the solver provides axia
 
     <p style="margin-top: 0.25rem; text-align:center;">
       <span style="font-size: 0.9rem; color: gray; display:block;">
-        Figure 1 — Growth rate vs. wavenumber at J = 2.0 × 10<sup>6</sup> A/m<sup>2</sup> (representative stability maps).
+        Figure 1 — Growth rate vs. wavenumber at J = 2.0 × 10<sup>6</sup> A/m<sup>2</sup>
       </span>
     </p>
   </li>
@@ -111,7 +111,7 @@ I then coupled the 1D solver to the 0D stability model: the solver provides axia
            alt="Growth rate vs. ionization fraction alpha"
            style="max-width: 500px; width:100%; margin: 1rem auto; display:block;">
       <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">
-        Figure 2 — Growth rate vs. ionization fraction α (critical threshold behavior).
+        Figure 2 — Growth rate vs. ionization fraction α
       </span>
     </p>
   </li>
@@ -126,7 +126,7 @@ I then coupled the 1D solver to the 0D stability model: the solver provides axia
              alt="Growth rate vs. interelectrode separation"
              style="width:100%; height:auto; margin: 1rem auto; display:block;">
         <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">
-          Figure 3 — Growth rate vs. interelectrode separation (geometry-driven stability trend).
+          Figure 3 — Growth rate vs. interelectrode separation
         </span>
       </div>
 
@@ -135,7 +135,7 @@ I then coupled the 1D solver to the 0D stability model: the solver provides axia
              alt="Onset parameter vs interelectrode separation: experiment vs prediction"
              style="width:100%; height:auto; margin: 1rem auto; display:block;">
         <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">
-          Figure 4 — Onset parameter vs. interelectrode separation (experiment vs. prediction).
+          Figure 4 — Onset parameter vs. interelectrode separation (experiment vs. prediction)
         </span>
       </div>
     </div>
@@ -150,7 +150,7 @@ I then coupled the 1D solver to the 0D stability model: the solver provides axia
            alt="Onset parameter vs length of shortest electrode: experiment vs prediction"
            style="max-width: 500px; width: 100%; margin: 1rem auto; display:block;">
       <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">
-        Figure 5 — Onset parameter vs. length of the shortest electrode (experiment vs. prediction).
+        Figure 5 — Onset parameter vs. length of the shortest electrode (experiment vs. prediction)
       </span>
     </p>
   </li>
@@ -164,7 +164,7 @@ I then coupled the 1D solver to the 0D stability model: the solver provides axia
            alt="Onset parameter vs mass flow rate: experiment vs prediction"
            style="max-width: 500px; width: 100%; margin: 1rem auto; display:block;">
       <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">
-        Figure 6 — Onset parameter vs. mass flow rate (experiment vs. prediction).
+        Figure 6 — Onset parameter vs. mass flow rate (experiment vs. prediction)
       </span>
     </p>
   </li>

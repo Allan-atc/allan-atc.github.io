@@ -474,7 +474,7 @@ Random vibration was performed with the VEGA PSD profile (20–2000 Hz, 8.85 gRM
 
 <h4>Issues</h4>
 <p>
-Beyond validating global dynamic behavior, the campaign also surfaced an early integration weakness: two loose nuts were found. During the Y-axis random vibration test, a measurement artifact was observed and attributed to these nuts. The root cause was insufficient thread engagement: the threaded shaft length had not been updated after the solar generator PCB thickness was changed.
+Beyond validating global dynamic behavior, the campaign also surfaced an early integration weakness: two nuts were found loose. During the Y-axis random vibration test, a measurement artifact was observed and attributed to this loosening. The root cause was insufficient fastener preload, which allowed self-loosening under random vibration.
 </p>
 
 <hr>

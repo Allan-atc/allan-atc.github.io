@@ -66,8 +66,9 @@ To evaluate stability from computed plasma states, I developed a 1D two-fluid so
 </ul>
 
 <p>
-I then coupled the 1D solver to the 0D stability model: the solver provides axial profiles, a near-anode state is extracted, and the stability module computes the growth rate and evaluates an onset criterion for a magnetic field <em>B</em> that increases up to onset. For a given geometry, this workflow can be used to sweep operating conditions and record onset thresholds when the instability criterion is exceeded.
+I then coupled the 1D solver to the 0D stability model: the solver provides axial profiles, a near-anode state is extracted, and the stability module computes the growth rate and evaluates an onset criterion for a magnetic field <em>B</em> that increases up to onset. For a given geometry, this workflow can be used to sweep operating conditions and record onset thresholds when the instability criterion is exceeded. This threshold is defined using the onset parameter, given by the square of the discharge current divided by the propellant mass flow rate, and its critical value marks the boundary between stable operation and the first observable onset symptoms. This coupled framework was exercised across representative geometries and operating conditions and was used to generate onset predictions that can be directly compared with published experimental trends.
 </p>
+
 
 <hr>
 
@@ -77,44 +78,106 @@ This coupled system was validated by reproducing key trends reported in the expe
 </p>
 
 <ul>
-  <li>Stability maps: growth rate vs. nondimensional wavenumber shows alternating stable and unstable bands.</li>
+  <li><strong>Stability maps:</strong> growth rate versus nondimensional wavenumber shows alternating stable and unstable bands.</li>
 </ul>
+
 <div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:flex-start;">
   <div style="max-width: 420px; flex: 1 1 320px; text-align:center;">
-    <img src="{{ '/img/NASA/Figure%204.1.png' | relative_url }}" alt="Figure 1 — Growth rate vs. wavenumber at J = 2.0 × 10^6 A/m^2" style="width:100%; height:auto; margin: 1rem auto; display:block;">
+    <img src="{{ '/img/NASA/Figure%204.1.png' | relative_url }}"
+         alt="Growth rate vs. wavenumber at J = 2.0 × 10^6 A/m^2"
+         style="width:100%; height:auto; margin: 1rem auto; display:block;">
   </div>
   <div style="max-width: 420px; flex: 1 1 320px; text-align:center;">
-    <img src="{{ '/img/NASA/Figure_4.2.png' | relative_url }}" alt="Figure 1 — Growth rate vs. wavenumber at J = 2.0 × 10^6 A/m^2" style="width:100%; height:auto; margin: 1rem auto; display:block;">
+    <img src="{{ '/img/NASA/Figure_4.2.png' | relative_url }}"
+         alt="Growth rate vs. wavenumber at J = 2.0 × 10^6 A/m^2 (second case)"
+         style="width:100%; height:auto; margin: 1rem auto; display:block;">
   </div>
 </div>
+
 <p align="center" style="margin-top: 0.25rem;">
-  <span style="font-size: 0.9rem; color: gray; display: block; text-align: center;">Figure 1 — Growth rate vs. wavenumber at J = 2.0 × 10^6 A/m<sup>2</sup></span>
+  <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">
+    Figure 1 — Growth rate vs. wavenumber at J = 2.0 × 10<sup>6</sup> A/m<sup>2</sup> (representative stability maps).
+  </span>
 </p>
 
 <ul>
-  <li>Current density sensitivity: increasing discharge current density increases instability growth rate and narrows the stable operating window.</li>
+  <li>
+    <strong>Ionization-fraction threshold:</strong> strong sensitivity to near-anode ionization fraction.
+    Above a critical value (approximately α ≈ 0.875), small current increases can lead to rapid stability loss.
+  </li>
 </ul>
+
 <p align="center">
-  <img src="{{ '/img/NASA/Figure_4.3.png' | relative_url }}" alt="Figure 3 — Growth rate vs. wavenumber at J = 5.0 × 10^6 A/m^2" style="max-width: 500px; margin: 1rem auto; display:block;">
-  <span style="font-size: 0.9rem; color: gray; display: block; text-align: center;">Figure 2 — Growth rate vs. wavenumber at J = 5.0 × 10^6 A/m<sup>2</sup></span>
+  <img src="{{ '/img/NASA/Figure_4.11%20alpha%20crit.png' | relative_url }}"
+       alt="Growth rate vs. ionization fraction alpha"
+       style="max-width: 500px; margin: 1rem auto; display:block;">
+  <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">
+    Figure 2 — Growth rate vs. ionization fraction α (critical threshold behavior).
+  </span>
 </p>
 
 <ul>
-  <li>Geometry correlation: for fixed mass flow rate, decreasing interelectrode length increases stability.</li>
+  <li>
+    <strong>Geometry correlation (stability):</strong> for fixed mass flow rate, decreasing interelectrode separation increases stability
+    (and therefore increases the onset parameter, enabling operation at higher current), consistent with experimental observations.
+  </li>
 </ul>
+
 <p align="center">
-  <img src="{{ '/img/NASA/Figure_4.5.png' | relative_url }}" alt="Figure 4 — Growth rate vs. interelectrode separation" style="max-width: 500px; margin: 1rem auto; display:block;">
-  <span style="font-size: 0.9rem; color: gray; display: block; text-align: center;">Figure 3 — Growth rate vs. interelectrode separation</span>
+  <img src="{{ '/img/NASA/Figure_4.5.png' | relative_url }}"
+       alt="Growth rate vs. interelectrode separation"
+       style="max-width: 500px; margin: 1rem auto; display:block;">
+  <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">
+    Figure 3 — Growth rate vs. interelectrode separation (geometry-driven stability trend).
+  </span>
 </p>
 
 <ul>
-  <li>Ionization-fraction threshold: strong sensitivity to near-anode ionization fraction. Above a critical value (approximately α ≈ 0.875), small current increases can lead to rapid stability loss.</li>
+  <li>
+    <strong>Electrode-length sensitivity:</strong> the onset parameter increases with the length of the shortest electrode,
+    consistent with the experimental trend.
+  </li>
 </ul>
+
 <p align="center">
-  <img src="{{ '/img/NASA/Figure_4.11%20alpha%20crit.png' | relative_url }}" alt="Figure 5 — Growth rate vs. ionization fraction α" style="max-width: 500px; margin: 1rem auto; display:block;">
-  <span style="font-size: 0.9rem; color: gray; display: block; text-align: center;">Figure 4 — Growth rate vs. ionization fraction α</span>
+  <img src="{{ '/img/NASA/fig5_3_length_shortest.png' | relative_url }}"
+       alt="Onset parameter vs length of shortest electrode: experiment vs prediction"
+       style="max-width: 900px; width: 100%; margin: 1rem auto; display:block;">
+  <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">
+    Figure 5 — Onset parameter vs. length of the shortest electrode (experiment vs. prediction).
+  </span>
 </p>
 
+<ul>
+  <li>
+    <strong>Interelectrode-separation sensitivity (onset):</strong> the onset parameter decreases with increasing interelectrode separation;
+    predictions follow an inverse power-law trend and experiments support the same decreasing behavior.
+  </li>
+</ul>
 
+<p align="center">
+  <img src="{{ '/img/NASA/fig5_5_interelectrode_separation.png' | relative_url }}"
+       alt="Onset parameter vs interelectrode separation: experiment vs prediction"
+       style="max-width: 900px; width: 100%; margin: 1rem auto; display:block;">
+  <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">
+    Figure 6 — Onset parameter vs. interelectrode separation (experiment vs. prediction).
+  </span>
+</p>
+
+<ul>
+  <li>
+    <strong>Mass-flow sensitivity:</strong> the onset parameter decreases with increasing mass flow rate;
+    predictions follow a power-law trend and experiments cluster around the same behavior.
+  </li>
+</ul>
+
+<p align="center">
+  <img src="{{ '/img/NASA/fig5_7_mass_flow_rate.png' | relative_url }}"
+       alt="Onset parameter vs mass flow rate: experiment vs prediction"
+       style="max-width: 900px; width: 100%; margin: 1rem auto; display:block;">
+  <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">
+    Figure 7 — Onset parameter vs. mass flow rate (experiment vs. prediction).
+  </span>
+</p>
 
 </div>

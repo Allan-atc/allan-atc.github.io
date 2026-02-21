@@ -117,8 +117,8 @@ I then coupled the 1D solver to the 0D stability model: the solver provides axia
   </li>
 
   <li>
-    Interelectrode separation sensitivity (Figures 3–4): For a fixed mass flow rate, decreasing interelectrode separation increases stability.
-    The onset parameter drops as interelectrode separation increases; the predicted inverse power-law captures the observed experimental trend.
+    Interelectrode separation sensitivity: For a fixed mass flow rate, decreasing interelectrode separation increases stability (Figure 3).
+    The onset parameter drops as interelectrode separation increases; the predicted inverse power-law captures the observed experimental trend (Figure 4).
 
     <div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:flex-start; margin-top:0.5rem;">
       <div style="max-width: 420px; flex: 1 1 360px; text-align:center;">

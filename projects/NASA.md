@@ -120,21 +120,21 @@ I then coupled the 1D solver to the 0D stability model: the solver provides axia
     Interelectrode separation sensitivity: For a fixed mass flow rate, decreasing interelectrode separation increases stability (Figure 3).
     The onset parameter drops as interelectrode separation increases; the predicted inverse power-law captures the observed experimental trend (Figure 4).
 
-    <div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:flex-start; margin-top:0.5rem;">
-      <div style="max-width: 420px; flex: 1 1 360px; text-align:center;">
+    <div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:stretch; margin-top:0.5rem;">
+      <div style="max-width: 420px; flex: 1 1 360px; text-align:center; display:flex; flex-direction:column;">
         <img src="{{ '/img/NASA/Figure_4.5.png' | relative_url }}"
              alt="Growth rate vs. interelectrode separation"
              style="width:100%; height:auto; margin: 1rem auto; display:block;">
-        <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">
+        <span style="font-size: 0.9rem; color: gray; display:block; text-align:center; margin-top:auto;">
           Figure 3 — Growth rate vs. interelectrode separation
         </span>
       </div>
 
-      <div style="max-width: 420px; flex: 1 1 360px; text-align:center;">
+      <div style="max-width: 420px; flex: 1 1 360px; text-align:center; display:flex; flex-direction:column;">
         <img src="{{ '/img/NASA/fig5_5_interelectrode_separation.png' | relative_url }}"
              alt="Onset parameter vs interelectrode separation: experiment vs prediction"
              style="width:100%; height:auto; margin: 1rem auto; display:block;">
-        <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">
+        <span style="font-size: 0.9rem; color: gray; display:block; text-align:center; margin-top:auto;">
           Figure 4 — Onset parameter vs. interelectrode separation (experiment vs. prediction)
         </span>
       </div>

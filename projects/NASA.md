@@ -121,7 +121,7 @@ I then coupled the 1D solver to the 0D stability model: the solver provides axia
     The onset parameter drops as interelectrode separation increases; the predicted inverse power-law captures the observed experimental trend.
 
     <div style="display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; align-items:flex-start; margin-top:0.5rem;">
-      <div style="max-width: 460px; flex: 1 1 360px; text-align:center;">
+      <div style="max-width: 420px; flex: 1 1 360px; text-align:center;">
         <img src="{{ '/img/NASA/Figure_4.5.png' | relative_url }}"
              alt="Growth rate vs. interelectrode separation"
              style="width:100%; height:auto; margin: 1rem auto; display:block;">
@@ -130,7 +130,7 @@ I then coupled the 1D solver to the 0D stability model: the solver provides axia
         </span>
       </div>
 
-      <div style="max-width: 460px; flex: 1 1 360px; text-align:center;">
+      <div style="max-width: 420px; flex: 1 1 360px; text-align:center;">
         <img src="{{ '/img/NASA/fig5_5_interelectrode_separation.png' | relative_url }}"
              alt="Onset parameter vs interelectrode separation: experiment vs prediction"
              style="width:100%; height:auto; margin: 1rem auto; display:block;">
@@ -148,7 +148,7 @@ I then coupled the 1D solver to the 0D stability model: the solver provides axia
     <p style="text-align:center; margin-top:0.5rem;">
       <img src="{{ '/img/NASA/fig5_3_length_shortest.png' | relative_url }}"
            alt="Onset parameter vs length of shortest electrode: experiment vs prediction"
-           style="max-width: 900px; width: 100%; margin: 1rem auto; display:block;">
+           style="max-width: 500px; width: 100%; margin: 1rem auto; display:block;">
       <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">
         Figure 5 — Onset parameter vs. length of the shortest electrode (experiment vs. prediction).
       </span>
@@ -162,7 +162,7 @@ I then coupled the 1D solver to the 0D stability model: the solver provides axia
     <p style="text-align:center; margin-top:0.5rem;">
       <img src="{{ '/img/NASA/fig5_7_mass_flow_rate.png' | relative_url }}"
            alt="Onset parameter vs mass flow rate: experiment vs prediction"
-           style="max-width: 900px; width: 100%; margin: 1rem auto; display:block;">
+           style="max-width: 500px; width: 100%; margin: 1rem auto; display:block;">
       <span style="font-size: 0.9rem; color: gray; display:block; text-align:center;">
         Figure 6 — Onset parameter vs. mass flow rate (experiment vs. prediction).
       </span>

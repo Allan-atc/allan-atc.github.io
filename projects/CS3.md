@@ -122,7 +122,7 @@ ESUS is a CentraleSupelec 3U CubeSat scheduled for launch in 2027, developed end
 </ul>
 
 <p>
-Along with one other student, we formed the Structure & Thermal team. I was primarily responsible for the structural work, while my teammate focused on thermal aspects; however, the two domains were tightly coupled and required coordination. I built the flight-representative mechanical CAD of ESUS and derived from it the first Structural & Thermal Model (STM) to validate Phase B (Preliminary Design & Technology Completion) through mechanical qualification activities.
+Along with one other student, we formed the Structure & Thermal team. I was primarily responsible for the structural work, while my teammate focused on thermal aspects; however, the two domains were tightly coupled and required coordination. I built the flight-representative mechanical CAD of ESUS and derived from it the first Structural Model (STM) to validate Phase B (Preliminary Design & Technology Completion) through mechanical qualification activities.
 </p>
 
 <div class="row g-3 justify-content-center">
@@ -213,14 +213,8 @@ The solution was to use mass dummies. Even without final hardware, this approach
 </ul>
 
 <p>
-To make the STM representative, dummy masses were sized using datasheet component masses. Their placement followed the real component layout on PCBs, and shapes were sometimes tuned (plates, blocks, butterfly geometries) to better reproduce inertia behavior rather than only matching total mass. This required that I manufactured aluminum or steel parts depending on the required density, using CentraleSupelec’s fabrication laboratory, including:
+To make the STM representative, dummy masses were sized using datasheet component masses. Their placement followed the real component layout on PCBs, and shapes were sometimes tuned (plates, blocks, butterfly geometries) to better reproduce inertia behavior rather than only matching total mass. This required that I manufactured aluminum or steel parts depending on the required density, using CentraleSupelec’s fabrication laboratory.
 </p>
-
-<ul>
-  <li>waterjet cutting,</li>
-  <li>laser cutting (CO<sub>2</sub> and fiber),</li>
-  <li>3D printing (filament and resin) for smaller parts.</li>
-</ul>
 
 <figure class="gc-figure mx-auto" style="max-width: 520px;">
   <div class="gc-frame gc-h-sm d-flex align-items-center">
@@ -276,7 +270,7 @@ Thanks to the STM, we obtained experimental measurements of the system mass and 
 </p>
 
 <ul>
-  <li>Total mass: 2998 g (target was 3 kg)</li>
+  <li>Total mass: 4098 g (target was 4 kg)</li>
   <li>Center of gravity offset relative to the structural geometric center: x = 0 mm, y = 2 mm, z = 7 mm</li>
 </ul>
 
@@ -331,8 +325,7 @@ I owned the end-to-end engineering work for the STM vibration qualification acti
 <h5>Test setup and instrumentation</h5>
 <ul>
   <li>Reference frame and axes: testing was performed along the CubeSat axes X, Y, Z.</li>
-  <li>Instrumentation strategy: I instrumented the STM with tri-axial accelerometers to capture both input control levels and the structural response. The core configuration used three 3-axis accelerometers, including one mounted at the card-rack center, plus additional sensors when needed for subsystem-level insight.</li>
-  <li>The accelerometer placed at the rack center is the most relevant measurement because it captures what the internal stack actually experiences, not just the shaker table input.</li>
+  <li>Instrumentation strategy: I instrumented the STM with tri-axial accelerometers to capture both input control levels and the structural response. The core configuration used four 3-axis accelerometers, including one mounted at the card-rack center.</li>
 </ul>
 
 
@@ -372,15 +365,15 @@ I used a structured integrity-check process: run a resonance survey before and a
 <p>Resonance survey:</p>
 <ul>
   <li>Input: 0.5 g, 5–2000 Hz, sweep rate 2 oct/min</li>
-  <li>Success criterion: frequency shift &lt; 5% and amplitude shift &lt; 10% relative to the reference spectrum, evaluated over 5–120 Hz if the first mode is &lt; 120 Hz, otherwise 5 Hz up to the first mode</li>
+  <li>Success criterion: frequency shift &lt; 5% relative to the reference spectrum.</li>
 </ul>
 
 
 <p>Vibration environments:</p>
 <ul>
-  <li>Quasi-static load: 12.5 g per axis at 35 Hz (represents launch accelerations)</li>
+  <li>Quasi-static load: 13 g per axis at 35 Hz (represents launch accelerations)</li>
   <li>Sinusoidal vibration: 5–125 Hz with amplitude schedule, 2 oct/min (represents launcher oscillations)</li>
-  <li>Random vibration: 20–2000 Hz PSD profile, 8.85 gRMS target, 120 s duration (stresses components and validates assembly)</li>
+  <li>Random vibration: 20–2000 Hz PSD profile, 7.65 gRMS target, 120 s duration (stresses components and validates assembly)</li>
 </ul>
 
 <hr>
@@ -401,44 +394,9 @@ The first natural frequencies measured on the STM were:
 This meets the requirement of a first mode &gt; 100 Hz with a safety factor of 2.3.
 </p>
 
-<figure class="gc-figure mx-auto" style="max-width: 760px;">
-  <div class="gc-frame gc-h-md d-flex align-items-center">
-    <img src="{{ 'img/CS3/resonance survey.png' | relative_url }}"
-         alt="Amplitude response of the structure accelerometer (X-axis): first vs last resonance survey"
-         class="gc-media" loading="lazy" decoding="async">
-  </div>
-  <figcaption class="gc-caption">Figure 11 — Comparison of resonance surveys along the X-axis for the accelerometer mounted at the satellite center</figcaption>
-</figure>
-
 <h5>Quasi-static load performance</h5>
 <p>
-From the quasi-static load test, the measured response at the STM accelerometers remained close to the commanded lateral acceleration, indicating an almost unit transfer function between the shaker input and the STM response. On the Z-axis, the maximum amplification factor was Q = 1.084, consistent with a stiff, well-coupled structure in this frequency range.
-</p>
-
-<div class="table-responsive">
-  <table class="table table-sm align-middle">
-    <thead>
-      <tr>
-        <th>Test axis</th>
-        <th>Lateral (g)</th>
-        <th>Accelerometer 1 (g)</th>
-        <th>Accelerometer 2 (g)</th>
-        <th>Accelerometer 3 (g)</th>
-        <th>Max Q factor</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Axis Z</td>
-        <td>12.5</td>
-        <td>13.5862</td>
-        <td>13.4888</td>
-        <td>13.4706</td>
-        <td>1.08417</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+From the quasi-static load test, the measured response at the STM accelerometers remained close to the commanded lateral acceleration, indicating an almost unit transfer function between the shaker input and the STM response. 
 
 <h5>Sinusoidal vibration response</h5>
 <p>
@@ -461,20 +419,20 @@ This is consistent with the STM having no structural natural frequency within 5�
              alt="Structure accelerometer response during sinusoidal vibration (X-axis)"
              class="gc-media" loading="lazy" decoding="async">
       </div>
-      <figcaption class="gc-caption">Figure 12 — Structure accelerometer response during sinusoidal vibration (X-axis)</figcaption>
+      <figcaption class="gc-caption">Figure 11 — Structure accelerometer response during sinusoidal vibration (X-axis)</figcaption>
     </figure>
   </div>
 </div>
 
 <h5>Random vibration performance</h5>
 <p>
-Random vibration was performed with the VEGA PSD profile (20–2000 Hz, 8.85 gRMS, 120 s). The achieved control levels were close to the specification on each axis. The structural PSD measured on the STM captured the system response and confirmed stable behavior under broadband excitation.
+The achieved control levels were close to the specification on each axis. The structural PSD measured on the STM captured the system response and confirmed stable behavior under broadband excitation.
 </p>
 <hr>
 
 <h4>Issues</h4>
 <p>
-Beyond validating global dynamic behavior, the campaign also surfaced an early integration weakness: two nuts were found loose. During the Y-axis random vibration test, a measurement artifact was observed and attributed to this loosening. The root cause was insufficient fastener preload, which allowed self-loosening under random vibration.
+Beyond validating global dynamic behavior, the campaign also surfaced an early integration weakness: two nuts were found loose. During the Y-axis random-vibration test, an anomalous accelerometer response was observed. The root cause was insufficient fastener preload, which allowed self-loosening under random vibration.
 </p>
 
 <hr>
@@ -490,7 +448,7 @@ I presented these results to CNES and Thales Alenia Space, and the Phase B revie
          alt="ESUS team photo"
          class="gc-media" loading="lazy" decoding="async">
   </div>
-  <figcaption class="gc-caption">Figure 13 - ESUS team in Toulouse, France, after Phase B validation</figcaption>
+  <figcaption class="gc-caption">Figure 12 - ESUS team in Toulouse, France, after Phase B validation</figcaption>
 </figure>
 
 </div>
